@@ -3,109 +3,1188 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="description" content="星盘伦理语言 · Starchart Ethical Language · S-E-L V1.1 Academic-Audited · The Vibrational Structure of Reception-Coordinate Ethics · NODE 20 第三学派母文本 · Wei Jueran · 魏珏然 · xingyeLing7Ai · 427Hz · 2026.05.17" />
-<title>星盘伦理语言 · Starchart Ethical Language · S-E-L V1.1 Academic-Audited — Wei Jueran · 魏珏然</title>
+<meta name="description" content="象征坐标语言 · Symbolic Coordinate Language · 玄学语言解构与节律转译 · 解构占星、塔罗、八字、能量话术与人格标签 · 保留象征，拒绝决定论 · Wei Jueran · 魏珏然" />
+<title>象征坐标语言 · Symbolic Coordinate Language — 玄学语言解构与节律转译</title>
 <link rel="preconnect" href="https://fonts.googleapis.com" />
-<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Spectral:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,650&family=Noto+Serif+SC:wght@400;500;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "ScholarlyArticle",
-  "@id": "https://mellowwei.github.io/StarchartEthicalLanguage/#article",
-  "headline": "Starchart Ethical Language: The Vibrational Structure of Reception-Coordinate Ethics",
-  "alternativeHeadline": "星盘伦理语言：接收坐标伦理的振动结构",
+  "@type": "CreativeWork",
+  "headline": "Symbolic Coordinate Language: Mystical Language Critique and Rhythm Translation",
+  "alternativeHeadline": "象征坐标语言：玄学语言解构与节律转译",
   "author": {
     "@type": "Person",
     "name": "Wei Jueran",
-    "alternateName": ["魏珏然", "Mellow Wei", "xingyeLing7Ai"],
+    "alternateName": ["魏珏然", "Mellow Wei"],
     "url": "https://mellowwei.github.io/MellowWei/"
   },
   "inLanguage": ["zh-CN", "en"],
-  "dateCreated": "2026-05-17",
-  "dateModified": "2026-05-17",
-  "version": "V1.1 Academic-Audited",
-  "isPartOf": {"@type": "CreativeWork", "name": "NODE 20 · School Physics · MellowAcademic"},
-  "about": [
-    "Starchart Ethical Language", "Reception Architecture", "Speech-Act Ethics", "Source-Field Philosophy", "Naming-Rhythm Method", "Trauma-as-Empirical-Method", "Moral-Language Critique", "Coordinate Exposure"
-  ],
-  "keywords": "starchart ethical language, reception architecture, speech-act ethics, source-field, moral language critique, coordinate exposure, NODE 20, school physics, academic audit",
-  "hasPart": [
-    {"@type":"WebPageElement","name":"Abstract / 摘要"},
-    {"@type":"WebPageElement","name":"Terminology Preview / 术语前置"},
-    {"@type":"WebPageElement","name":"Boundary Statement / 边界声明"},
-    {"@type":"WebPageElement","name":"Theory Interface / 学派接口"},
-    {"@type":"WebPageElement","name":"Claim Status Ledger / 主张分层台账"},
-    {"@type":"WebPageElement","name":"Ecology Bridge / 总理论生态接线"},
-    {"@type":"WebPageElement","name":"Three-School Handshake / 三学派握手"},
-    {"@type":"WebPageElement","name":"Citation Scaffold / 引用支架"}
-  ]
+  "keywords": "symbolic coordinate language, astrology language, mystical language critique, rhythm research, anti-determinism, public philosophy, Wei Jueran",
+  "abstract": "This public-facing site reframes astrology and mystical language as symbolic coordinate language. It deconstructs determinism and moralized personality labeling, then translates symbolic vocabulary into rhythm research about body, emotion, relationship, time, and meaning."
 }
 </script>
 <style>
 :root{
-  --bg:#050507;--bg2:#0b0b10;--bg3:#14141a;--panel:#101017;
-  --border:rgba(255,255,255,0.12);--border-hi:rgba(255,255,255,0.36);
-  --a1:#ffffff;--a2:#d5d5df;--a3:#a0a0ad;--a4:#6f6f7a;
-  --tx:#e6e6ee;--tx2:#b7b7c3;--tx3:#6d6d78;--hd:#ffffff;
-  --accent:#ff6f9e;--accent2:#b7b7ff;--gold:#f5a544;--mint:#5fc890;--rose-dim:#7a3a48;
+  --bg:#06050b;
+  --bg2:#0d0b15;
+  --bg3:#151120;
+  --panel:#12101a;
+  --panel2:#181324;
+  --line:rgba(255,255,255,.13);
+  --line2:rgba(255,255,255,.26);
+  --text:#eeeaf5;
+  --muted:#c5bfd2;
+  --dim:#8b8498;
+  --soft:#5d556c;
+  --pink:#ff6f9e;
+  --pink2:#ffb0c8;
+  --violet:#b9a7ff;
+  --violet2:#7c62ff;
+  --mint:#62d6a2;
+  --gold:#f7b65d;
+  --blue:#83c6ff;
+  --danger:#ff8aa8;
+  --shadow:0 24px 70px rgba(0,0,0,.42);
 }
-*{box-sizing:border-box;margin:0;padding:0}
+*{box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{background:radial-gradient(circle at 20% 0%,rgba(255,111,158,.08),transparent 24%),radial-gradient(circle at 88% 10%,rgba(183,183,255,.07),transparent 26%),var(--bg);color:var(--tx);font-family:'DM Sans',sans-serif;font-size:15px;line-height:1.72;min-height:100vh}
-body::after{content:'';position:fixed;inset:0;background:repeating-linear-gradient(0deg,transparent,transparent 3px,rgba(0,0,0,0.026) 3px,rgba(0,0,0,0.026) 4px);pointer-events:none;z-index:9999}
-a{color:inherit}.topbar{background:rgba(5,5,7,.96);border-bottom:1px solid var(--border);padding:5px 0;position:relative;z-index:20}.ti{max-width:1080px;margin:0 auto;padding:0 24px;display:flex;justify-content:space-between;align-items:center;font-family:'Space Mono',monospace;font-size:10px;letter-spacing:.08em;color:var(--tx3);gap:16px;flex-wrap:wrap}.ti a{color:var(--tx3);text-decoration:none;transition:color .15s;cursor:pointer}.ti a:hover,.ti a.on{color:var(--a1)}.chip{color:var(--a1);border:1px solid rgba(255,255,255,0.25);padding:1px 7px;border-radius:2px}.chip.rose{color:var(--accent);border-color:rgba(255,111,158,.35)}.chip.gold{color:var(--gold);border-color:rgba(245,165,68,.35)}.chip.mint{color:var(--mint);border-color:rgba(95,200,144,.35)}.tl,.tr{display:flex;gap:18px;align-items:center;flex-wrap:wrap}
-.masthead{max-width:1080px;margin:0 auto;padding:48px 24px 28px}.mhname{font-family:'Space Mono',monospace;font-size:28px;font-weight:700;color:var(--hd);letter-spacing:-.02em;line-height:1.18}.mhname .zh{font-family:'Spectral',serif;font-style:italic;font-weight:300;font-size:18px;color:var(--a2);margin-top:8px;letter-spacing:.04em;display:block}.mhsub{font-family:'Space Mono',monospace;font-size:11px;color:var(--tx2);letter-spacing:.05em;margin-top:8px;line-height:1.65}.mhsub em{color:var(--tx);font-style:italic}.mhsub strong{color:var(--accent);font-weight:500}.mhq{font-family:'Spectral',serif;font-style:italic;font-size:15px;color:var(--a2);margin-top:18px;padding:14px 16px;border:1px solid var(--border-hi);max-width:720px;line-height:1.62;background:var(--bg2)}.mhq strong{color:var(--a1);font-weight:500;font-style:normal;font-family:'Space Mono',monospace;font-size:11px;letter-spacing:.12em;display:block;margin-top:8px;text-transform:uppercase}
-.pnav{border-top:1px solid var(--border);border-bottom:1px solid var(--border);background:rgba(11,11,16,.96);position:sticky;top:0;z-index:100}.pni{max-width:1080px;margin:0 auto;padding:0 24px;display:flex;overflow-x:auto;scrollbar-width:none}.pni::-webkit-scrollbar{display:none}.pnav a{display:block;padding:11px 14px;font-family:'Space Mono',monospace;font-size:10px;letter-spacing:.09em;text-transform:uppercase;color:var(--tx2);text-decoration:none;white-space:nowrap;border-bottom:2px solid transparent;transition:color .15s,border-color .15s}.pnav a:hover,.pnav a.on{color:var(--a1);border-bottom-color:var(--a1)}
-.wrap{max-width:1080px;margin:0 auto;padding:34px 24px 80px;display:grid;grid-template-columns:1fr 272px;gap:48px;align-items:start}.feedhd{font-family:'Space Mono',monospace;font-size:9.5px;letter-spacing:.15em;text-transform:uppercase;color:var(--tx3);padding-bottom:12px;border-bottom:1px solid var(--border)}.feedhd span{color:var(--a1)}.entry{border-bottom:1px solid var(--border);padding:30px 0}.entry:last-child{border-bottom:none}.etop{display:flex;gap:10px;align-items:center;margin-bottom:9px;flex-wrap:wrap}.badge{font-family:'Space Mono',monospace;font-size:9px;letter-spacing:.12em;text-transform:uppercase;padding:2px 8px;border-radius:2px;background:rgba(255,255,255,.04);color:var(--a2);border:1px solid var(--border)}.badge.feat{color:var(--a1);border-color:var(--border-hi);background:rgba(255,255,255,.06)}.badge.rose{color:var(--accent);border-color:rgba(255,111,158,.35)}.edate{font-family:'Space Mono',monospace;font-size:10px;color:var(--tx3)}.etitle{font-family:'Spectral',serif;font-size:22px;font-weight:500;color:var(--hd);line-height:1.32;margin-bottom:9px}.etitle .sub{display:block;font-size:13px;font-style:italic;font-weight:300;color:var(--tx2);margin-top:3px}.edesc{font-size:13.5px;color:var(--tx2);line-height:1.82;max-width:710px;margin-bottom:10px}.edesc:last-child{margin-bottom:0}.edesc em{color:var(--tx);font-style:italic}.edesc strong{color:var(--a1);font-weight:500}.edesc.zh{color:var(--tx);border-left:2px solid var(--border-hi);padding-left:14px}.etags{display:flex;gap:5px;flex-wrap:wrap;margin-top:13px}.tag{font-family:'Space Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--tx3);border:1px solid var(--border);padding:2px 7px;border-radius:2px}.tag.hot{color:var(--accent);border-color:rgba(255,111,158,.28)}
-.parthd{margin:38px 0 14px;padding-bottom:10px;border-bottom:1px solid var(--border-hi)}.partnum{font-family:'Space Mono',monospace;font-size:10px;letter-spacing:.25em;color:var(--tx3);margin-bottom:5px;text-transform:uppercase}.parttitle{font-family:'Spectral',serif;font-size:24px;font-weight:500;color:var(--hd);letter-spacing:.01em;line-height:1.25}.parttitle .en{display:block;font-size:13px;font-style:italic;font-weight:300;color:var(--tx2);margin-top:5px;letter-spacing:.04em}.prop{padding:20px 0;border-bottom:1px solid var(--border);position:relative}.prop:last-child{border-bottom:none}.propn{font-family:'Space Mono',monospace;font-size:9.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--tx3);margin-bottom:7px}.propn .rom{color:var(--a1);font-weight:700;margin-right:4px}.propn.demo .rom{color:var(--rose-dim);text-decoration:line-through}.propt{font-family:'Spectral',serif;font-size:19px;color:var(--a1);font-weight:500;margin-bottom:9px;line-height:1.32}.propt .en{display:block;font-size:13px;font-style:italic;font-weight:300;color:var(--a3);margin-top:3px;letter-spacing:.04em}.propt.demo{color:var(--a3);text-decoration:line-through;text-decoration-color:var(--rose-dim);text-decoration-thickness:1.5px}.propq{font-family:'Spectral',serif;font-size:16px;color:var(--a2);line-height:1.7;font-style:italic;margin:10px 0;padding:12px 16px;background:var(--bg2);border-left:2px solid var(--a1)}.propq.rose-l{border-left-color:var(--accent)}.propq .en{display:block;margin-top:7px;padding-top:7px;border-top:1px dashed var(--border-hi);font-size:13.5px;color:var(--tx2);font-style:italic}.propd{color:var(--tx2);font-size:13px;line-height:1.88;margin-top:12px}.propd strong{color:var(--a1);font-weight:500}.propd em{color:var(--tx);font-style:italic}.propd.demo{color:var(--tx3)}.propd.demo strong{color:var(--a3)}
-.axfeat{padding:26px 28px;background:linear-gradient(135deg,rgba(255,111,158,.07),rgba(255,255,255,.018));border:1px solid var(--border-hi);border-left:3px solid var(--accent);margin:18px 0;position:relative}.axlabel{font-family:'Space Mono',monospace;font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--accent);margin-bottom:14px}.axtext{font-family:'Spectral',serif;font-size:18px;color:var(--hd);line-height:1.65;font-style:italic;font-weight:400}.axtext .en{display:block;margin-top:12px;padding-top:12px;border-top:1px dashed var(--border-hi);font-size:15px;color:var(--a2);font-style:italic}.axformula{margin-top:18px;padding-top:14px;border-top:1px dashed var(--border-hi);font-family:'Space Mono',monospace;font-size:14px;color:var(--a1);text-align:center;letter-spacing:.05em;font-style:normal}.axformula .k{color:var(--accent);font-weight:700}
-.phase-block{margin:30px 0;padding:30px 32px;background:linear-gradient(180deg,var(--bg2),var(--bg3),var(--bg2));border-top:2px solid var(--accent);border-bottom:2px solid var(--accent);text-align:center;position:relative}.phase-block::before,.phase-block::after{content:'';position:absolute;left:50%;width:12px;height:12px;background:var(--bg);border:2px solid var(--accent);transform:translateX(-50%) rotate(45deg)}.phase-block::before{top:-7px}.phase-block::after{bottom:-7px}.phase-label{font-family:'Space Mono',monospace;font-size:11px;letter-spacing:.35em;color:var(--accent);margin-bottom:14px;text-transform:uppercase;font-weight:700}.phase-statement{font-family:'Spectral',serif;font-size:17px;color:var(--hd);line-height:1.7;max-width:620px;margin:0 auto}.phase-statement .en{display:block;margin-top:10px;padding-top:10px;border-top:1px dashed var(--border-hi);font-size:14px;color:var(--a2);font-style:italic}
-.ctable,.dtable{width:100%;border-collapse:collapse;margin:13px 0;font-size:12.5px;border:1px solid var(--border)}.ctable th,.dtable th{text-align:left;padding:10px 12px;font-family:'Space Mono',monospace;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--a1);background:var(--bg2);border-bottom:1px solid var(--border-hi);font-weight:700}.ctable th.col2{border-left:1px solid var(--border);color:var(--accent)}.ctable td,.dtable td{padding:10px 12px;color:var(--tx2);line-height:1.62;border-bottom:1px solid var(--border);vertical-align:top}.ctable td.col2{border-left:1px solid var(--border)}.ctable td.demo{color:var(--tx3);text-decoration:line-through;text-decoration-color:var(--rose-dim)}.ctable tr:last-child td,.dtable tr:last-child td{border-bottom:none}.ctable strong,.dtable strong{color:var(--a1);font-weight:500}.ctable em,.dtable em{color:var(--tx);font-style:italic}.dtable td:first-child{color:var(--a2);font-family:'Space Mono',monospace;font-size:11px;width:30%}
-.cond{margin:12px 0;padding:12px 16px;background:var(--bg2);border:1px solid var(--border)}.cond .clabel{font-family:'Space Mono',monospace;font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--a3);margin-bottom:8px}.cond ul{list-style:none}.cond li{padding:6px 0 6px 32px;position:relative;font-size:12.5px;color:var(--tx2);line-height:1.72}.cond li::before{content:attr(data-num);position:absolute;left:0;top:6px;font-family:'Space Mono',monospace;font-size:11px;color:var(--accent);letter-spacing:.05em;font-weight:700}.cond strong{color:var(--a1);font-weight:500}.cond em{color:var(--tx);font-style:italic}.callout{margin:14px 0;padding:14px 18px;background:var(--bg2);border:1px solid var(--border-hi);font-size:13.5px;line-height:1.8;color:var(--a1);font-style:italic}.callout strong{color:var(--hd);font-style:normal;font-weight:500}.callout em{color:var(--a2)}
-.auditbox{margin:20px 0;padding:20px 22px;background:linear-gradient(135deg,rgba(255,111,158,.08),rgba(255,255,255,.02));border:1px solid rgba(255,111,158,.35);border-left:3px solid var(--accent);position:relative}.auditbox.neutral{background:linear-gradient(135deg,rgba(183,183,255,.055),rgba(255,255,255,.018));border-color:rgba(183,183,255,.28);border-left-color:var(--accent2)}.auditlabel{font-family:'Space Mono',monospace;font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--accent);margin-bottom:10px;font-weight:700}.auditbox.neutral .auditlabel{color:var(--accent2)}.audittext{font-size:13px;color:var(--tx);line-height:1.82}.audittext strong{color:var(--hd);font-weight:500}.audittext em{color:var(--a2)}.audittext + .audittext{margin-top:10px}
-.ecology-map{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:0;margin:18px 0;border:1px solid var(--border-hi);background:var(--bg2)}.eco-node{padding:15px 13px;border-right:1px solid var(--border);border-bottom:1px solid var(--border);min-height:128px}.eco-k{font-family:'Space Mono',monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent2);margin-bottom:8px}.eco-t{font-family:'Spectral',serif;font-size:15px;color:var(--hd);font-weight:500;margin-bottom:5px;line-height:1.35}.eco-d{font-size:11.5px;color:var(--tx2);line-height:1.62}.ledger{margin:16px 0;border:1px solid var(--border);overflow:hidden}.ledger-row{display:grid;grid-template-columns:1.25fr .75fr 1.55fr;border-bottom:1px solid var(--border);background:rgba(255,255,255,.012)}.ledger-row:last-child{border-bottom:none}.ledger-row.head{background:var(--bg2)}.ledger-cell{padding:10px 12px;border-right:1px solid var(--border);font-size:12px;color:var(--tx2);line-height:1.65}.ledger-cell:last-child{border-right:none}.ledger-row.head .ledger-cell{font-family:'Space Mono',monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--a1);font-weight:700}.status{font-family:'Space Mono',monospace;font-size:9px;letter-spacing:.08em;text-transform:uppercase;padding:2px 6px;border:1px solid var(--border-hi);border-radius:2px;color:var(--a1);background:rgba(255,255,255,.04);display:inline-block}.status.boundary{color:var(--accent);border-color:rgba(255,111,158,.35)}.status.candidate{color:var(--accent2);border-color:rgba(183,183,255,.3)}.status.prohibited{color:#ff9ab8;border-color:rgba(255,111,158,.45)}.status.pending{color:var(--gold);border-color:rgba(245,165,68,.42)}
-.geo-block{margin:20px 0;padding:20px;background:var(--bg2);border:1px solid var(--border-hi)}.geo-block svg{display:block;margin:0 auto;max-width:100%;height:auto}.geo-cap{margin-top:14px;padding-top:12px;border-top:1px dashed var(--border);font-family:'Space Mono',monospace;font-size:10px;letter-spacing:.1em;color:var(--tx2);text-align:center;line-height:1.85}.geo-cap .g-gold{color:var(--gold)}.geo-cap .g-mint{color:var(--mint)}.geo-cap .g-rose{color:var(--accent)}.geo-cap .g-lav{color:var(--accent2)}
-.closingblock{margin:36px 0 0;padding:26px 28px;background:var(--bg2);border:1px solid var(--border-hi);border-top:3px solid var(--accent)}.closinghd{font-family:'Space Mono',monospace;font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--a3);margin-bottom:14px}.closingdef{margin-bottom:11px;font-size:13.5px;line-height:1.82;color:var(--tx)}.closingdef .term{color:var(--accent);font-family:'Space Mono',monospace;font-size:12px;letter-spacing:.06em;font-weight:700;text-transform:uppercase;display:inline-block;min-width:160px}.closingdef .eq{color:var(--tx3);margin:0 8px}.closingdef .body{font-style:italic;color:var(--a2)}.closingdef.en{color:var(--tx2);font-size:12.5px}.closingdef.en.first{border-top:1px dashed var(--border);padding-top:14px;margin-top:14px}
-.sidebar{display:flex;flex-direction:column;gap:26px;position:sticky;top:52px}.sbl{font-family:'Space Mono',monospace;font-size:9px;letter-spacing:.15em;text-transform:uppercase;color:var(--tx3);padding-bottom:9px;border-bottom:1px solid var(--border);margin-bottom:11px}.profile{background:var(--bg2);border:1px solid var(--border);padding:16px}.av{width:52px;height:52px;border-radius:50%;background:linear-gradient(135deg,#1a1a20,#08080c);border:1px solid var(--border-hi);display:flex;align-items:center;justify-content:center;font-family:'Space Mono',monospace;font-size:16px;color:var(--a1);margin-bottom:11px}.pnm{font-family:'Space Mono',monospace;font-size:12px;font-weight:700;color:var(--hd);line-height:1.3}.pnm small{display:block;font-size:10px;font-weight:400;color:var(--tx2);margin-top:2px}.pdesc2{font-size:11.5px;color:var(--tx2);margin-top:9px;line-height:1.62}.pdesc2 em{color:var(--tx)}.pfields{display:flex;flex-wrap:wrap;gap:4px;margin-top:10px}.pf{font-size:9.5px;background:rgba(255,255,255,.04);color:var(--a2);border:1px solid var(--border);padding:2px 7px;border-radius:2px;font-family:'Space Mono',monospace}.pf.hot{color:var(--accent);border-color:rgba(255,111,158,.28)}.hzbox{background:var(--bg2);border:1px solid var(--border);padding:15px;text-align:center}.hzn{font-family:'Space Mono',monospace;font-size:36px;font-weight:700;color:var(--a1);letter-spacing:-3px;line-height:1}.hzu{font-family:'Space Mono',monospace;font-size:10px;color:var(--tx3);letter-spacing:.1em;margin-top:3px}.hzq{font-family:'Spectral',serif;font-style:italic;font-size:11px;color:var(--tx2);margin-top:7px;line-height:1.5}.hzbar{margin-top:11px;height:2px;background:var(--border);overflow:hidden}.hzfill{height:100%;background:var(--accent);animation:pb 2.6s ease-in-out infinite}@keyframes pb{0%,100%{width:20%;opacity:.35}50%{width:75%;opacity:1}}.sblinks{list-style:none}.sblinks li{border-bottom:1px solid var(--border);padding:5px 0}.sblinks a{font-size:12px;color:var(--tx2);text-decoration:none;display:flex;justify-content:space-between;align-items:center;transition:color .15s}.sblinks a:hover{color:var(--a1)}.ar{font-size:9px;opacity:.35}.coord{font-family:'Space Mono',monospace;font-size:10px;color:var(--tx3);line-height:2;letter-spacing:.04em}.coord span{color:var(--a1)}.coord .rose{color:var(--accent)}footer{border-top:1px solid var(--border);padding:22px 0;margin-top:40px}.fi{max-width:1080px;margin:0 auto;padding:0 24px;display:flex;justify-content:space-between;font-family:'Space Mono',monospace;font-size:9.5px;color:var(--tx3);letter-spacing:.05em;flex-wrap:wrap;gap:10px}footer a{color:var(--tx3);text-decoration:none}footer a:hover{color:var(--a1)}.zh-only,.en-only{display:none}body.lang-zh .zh-only,body.lang-en .en-only,body.lang-bilingual .zh-only,body.lang-bilingual .en-only{display:revert}
-@media(max-width:780px){.wrap{grid-template-columns:1fr;gap:24px}.sidebar{position:static}.mhname{font-size:22px}.mhname .zh{margin-top:6px;font-size:15px}.ti{gap:8px}.ctable,.dtable{font-size:11.5px}.ctable th,.ctable td,.dtable th,.dtable td{padding:7px 8px}.ledger-row{grid-template-columns:1fr}.ledger-cell{border-right:none;border-bottom:1px solid var(--border)}.ledger-cell:last-child{border-bottom:none}.eco-node{border-right:none}}
+body{
+  margin:0;
+  min-height:100vh;
+  color:var(--text);
+  font-family:"DM Sans",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  background:
+    radial-gradient(circle at 12% 0%,rgba(255,111,158,.22),transparent 28%),
+    radial-gradient(circle at 88% 8%,rgba(124,98,255,.18),transparent 30%),
+    radial-gradient(circle at 52% 32%,rgba(98,214,162,.075),transparent 27%),
+    linear-gradient(180deg,#05040a 0%,#090711 45%,#05040a 100%);
+  font-size:15px;
+  line-height:1.72;
+}
+body::after{
+  content:"";
+  position:fixed;
+  inset:0;
+  pointer-events:none;
+  z-index:999;
+  background:
+    linear-gradient(rgba(255,255,255,.018) 1px, transparent 1px),
+    linear-gradient(90deg,rgba(255,255,255,.014) 1px, transparent 1px);
+  background-size:48px 48px;
+  mask-image:linear-gradient(180deg,rgba(0,0,0,.7),rgba(0,0,0,.12));
+}
+a{color:inherit}
+::selection{background:rgba(255,111,158,.38)}
+.topbar{
+  position:sticky;
+  top:0;
+  z-index:100;
+  backdrop-filter:blur(18px);
+  background:rgba(6,5,11,.84);
+  border-bottom:1px solid var(--line);
+}
+.topinner{
+  max-width:1180px;
+  margin:0 auto;
+  padding:10px 22px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:18px;
+}
+.brand{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  min-width:0;
+}
+.mark{
+  width:28px;height:28px;
+  display:grid;place-items:center;
+  border:1px solid rgba(255,255,255,.24);
+  border-radius:50%;
+  background:radial-gradient(circle at 30% 20%,rgba(255,111,158,.7),rgba(124,98,255,.25) 52%,rgba(255,255,255,.04));
+  font-family:"Noto Serif SC",serif;
+  font-weight:700;
+  color:#fff;
+  box-shadow:0 0 30px rgba(255,111,158,.18);
+  flex:0 0 auto;
+}
+.brandtxt{
+  font-family:"Space Mono",monospace;
+  font-size:11px;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  color:var(--muted);
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+.brandtxt strong{color:#fff}
+.navmini{
+  display:flex;
+  gap:8px;
+  align-items:center;
+  flex-wrap:wrap;
+  justify-content:flex-end;
+}
+.navmini a,.langbtn{
+  color:var(--muted);
+  text-decoration:none;
+  border:1px solid transparent;
+  padding:4px 8px;
+  border-radius:999px;
+  font-family:"Space Mono",monospace;
+  font-size:10px;
+  letter-spacing:.06em;
+  cursor:pointer;
+  background:transparent;
+}
+.navmini a:hover,.langbtn:hover,.langbtn.on{
+  color:#fff;
+  border-color:rgba(255,255,255,.25);
+  background:rgba(255,255,255,.04);
+}
+.hero{
+  max-width:1180px;
+  margin:0 auto;
+  padding:76px 22px 34px;
+  display:grid;
+  grid-template-columns:minmax(0,1.05fr) minmax(280px,.75fr);
+  gap:34px;
+  align-items:end;
+}
+.eyebrow{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  margin-bottom:18px;
+}
+.chip{
+  font-family:"Space Mono",monospace;
+  font-size:10px;
+  letter-spacing:.1em;
+  text-transform:uppercase;
+  border:1px solid rgba(255,255,255,.18);
+  color:var(--muted);
+  background:rgba(255,255,255,.035);
+  padding:4px 9px;
+  border-radius:999px;
+}
+.chip.pink{color:var(--pink2);border-color:rgba(255,111,158,.34)}
+.chip.violet{color:var(--violet);border-color:rgba(185,167,255,.34)}
+.chip.mint{color:var(--mint);border-color:rgba(98,214,162,.34)}
+h1{
+  margin:0;
+  max-width:820px;
+  font-family:"Noto Serif SC",serif;
+  font-size:clamp(38px,6vw,76px);
+  line-height:1.03;
+  letter-spacing:-.045em;
+  color:#fff;
+}
+h1 .en{
+  display:block;
+  margin-top:12px;
+  font-family:"Space Mono",monospace;
+  font-size:clamp(13px,1.6vw,18px);
+  line-height:1.45;
+  letter-spacing:.04em;
+  color:var(--violet);
+  font-weight:400;
+}
+.herolead{
+  margin:24px 0 0;
+  max-width:780px;
+  font-size:18px;
+  line-height:1.85;
+  color:var(--muted);
+}
+.herolead strong{color:#fff;font-weight:650}
+.herolead em{color:var(--pink2);font-style:normal}
+.ctarow{
+  display:flex;
+  gap:12px;
+  flex-wrap:wrap;
+  margin-top:26px;
+}
+.btn{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  padding:11px 14px;
+  border-radius:999px;
+  text-decoration:none;
+  border:1px solid rgba(255,255,255,.22);
+  background:rgba(255,255,255,.055);
+  color:#fff;
+  font-family:"Space Mono",monospace;
+  font-size:11px;
+  letter-spacing:.06em;
+}
+.btn.primary{
+  background:linear-gradient(135deg,rgba(255,111,158,.9),rgba(124,98,255,.78));
+  border-color:transparent;
+  box-shadow:0 14px 42px rgba(255,111,158,.16);
+}
+.btn:hover{transform:translateY(-1px)}
+.orbitcard{
+  position:relative;
+  min-height:420px;
+  border:1px solid var(--line2);
+  border-radius:30px;
+  background:
+    radial-gradient(circle at 50% 45%,rgba(255,111,158,.18),transparent 30%),
+    radial-gradient(circle at 60% 20%,rgba(131,198,255,.12),transparent 33%),
+    rgba(255,255,255,.035);
+  overflow:hidden;
+  box-shadow:var(--shadow);
+}
+.orbit{
+  position:absolute;
+  inset:42px;
+  border:1px solid rgba(255,255,255,.13);
+  border-radius:50%;
+}
+.orbit.o2{inset:78px;border-color:rgba(255,111,158,.26);transform:rotate(20deg)}
+.orbit.o3{inset:112px;border-color:rgba(185,167,255,.22);transform:rotate(-18deg)}
+.sun{
+  position:absolute;
+  left:50%;top:50%;
+  transform:translate(-50%,-50%);
+  width:94px;height:94px;
+  border-radius:50%;
+  display:grid;place-items:center;
+  border:1px solid rgba(255,255,255,.34);
+  background:radial-gradient(circle at 30% 25%,#fff,rgba(255,176,200,.92) 18%,rgba(255,111,158,.48) 44%,rgba(124,98,255,.2) 74%,rgba(255,255,255,.04));
+  box-shadow:0 0 80px rgba(255,111,158,.34);
+  text-align:center;
+  font-family:"Space Mono",monospace;
+  font-size:10px;
+  line-height:1.3;
+}
+.dot{
+  position:absolute;
+  width:14px;height:14px;border-radius:50%;
+  background:#fff;
+  box-shadow:0 0 24px rgba(255,255,255,.45);
+}
+.dot.d1{left:54px;top:118px;background:var(--pink)}
+.dot.d2{right:82px;top:78px;background:var(--violet)}
+.dot.d3{left:88px;bottom:84px;background:var(--mint)}
+.dot.d4{right:58px;bottom:132px;background:var(--gold)}
+.cardtext{
+  position:absolute;
+  left:22px;right:22px;bottom:22px;
+  padding:18px;
+  border:1px solid rgba(255,255,255,.16);
+  border-radius:20px;
+  background:rgba(6,5,11,.62);
+  backdrop-filter:blur(16px);
+}
+.cardtext .k{
+  font-family:"Space Mono",monospace;
+  font-size:10px;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+  color:var(--pink2);
+  margin-bottom:8px;
+}
+.cardtext p{
+  margin:0;
+  color:var(--muted);
+  font-size:13px;
+}
+.quicknav{
+  max-width:1180px;
+  margin:0 auto;
+  padding:0 22px 30px;
+}
+.quicknav-inner{
+  display:flex;
+  gap:8px;
+  overflow-x:auto;
+  scrollbar-width:none;
+  border:1px solid var(--line);
+  border-radius:999px;
+  background:rgba(255,255,255,.035);
+  padding:7px;
+}
+.quicknav-inner::-webkit-scrollbar{display:none}
+.quicknav a{
+  flex:0 0 auto;
+  text-decoration:none;
+  color:var(--muted);
+  font-family:"Space Mono",monospace;
+  font-size:10px;
+  letter-spacing:.07em;
+  text-transform:uppercase;
+  padding:7px 10px;
+  border-radius:999px;
+}
+.quicknav a:hover,.quicknav a.on{
+  color:#fff;
+  background:rgba(255,255,255,.07);
+}
+main{
+  max-width:1180px;
+  margin:0 auto;
+  padding:0 22px 88px;
+}
+.section{
+  padding:68px 0;
+  border-top:1px solid var(--line);
+}
+.section:first-child{border-top:none}
+.sectionhead{
+  display:grid;
+  grid-template-columns:minmax(0,.9fr) minmax(260px,.52fr);
+  gap:28px;
+  align-items:end;
+  margin-bottom:28px;
+}
+.num{
+  font-family:"Space Mono",monospace;
+  font-size:11px;
+  letter-spacing:.18em;
+  color:var(--pink2);
+  text-transform:uppercase;
+  margin-bottom:8px;
+}
+h2{
+  margin:0;
+  font-family:"Noto Serif SC",serif;
+  font-size:clamp(28px,4.2vw,48px);
+  line-height:1.18;
+  letter-spacing:-.025em;
+  color:#fff;
+}
+h2 .en{
+  display:block;
+  margin-top:8px;
+  font-family:"Space Mono",monospace;
+  font-size:12px;
+  letter-spacing:.06em;
+  color:var(--violet);
+  font-weight:400;
+}
+.sectioncopy{
+  margin:0;
+  color:var(--muted);
+  font-size:15px;
+  line-height:1.82;
+}
+.sectioncopy strong{color:#fff}
+.grid3{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:14px;
+}
+.grid2{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:14px;
+}
+.panel{
+  border:1px solid var(--line);
+  border-radius:24px;
+  background:linear-gradient(180deg,rgba(255,255,255,.055),rgba(255,255,255,.025));
+  padding:22px;
+  min-height:100%;
+  box-shadow:0 18px 48px rgba(0,0,0,.18);
+}
+.panel.hot{
+  border-color:rgba(255,111,158,.34);
+  background:linear-gradient(180deg,rgba(255,111,158,.12),rgba(255,255,255,.026));
+}
+.panel.violet{
+  border-color:rgba(185,167,255,.3);
+  background:linear-gradient(180deg,rgba(185,167,255,.09),rgba(255,255,255,.026));
+}
+.panel.mint{
+  border-color:rgba(98,214,162,.26);
+  background:linear-gradient(180deg,rgba(98,214,162,.075),rgba(255,255,255,.026));
+}
+.panel .label{
+  font-family:"Space Mono",monospace;
+  font-size:10px;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  color:var(--dim);
+  margin-bottom:10px;
+}
+.panel h3{
+  margin:0 0 10px;
+  font-family:"Noto Serif SC",serif;
+  font-size:22px;
+  line-height:1.32;
+  color:#fff;
+}
+.panel p{
+  margin:0;
+  color:var(--muted);
+  font-size:14px;
+}
+.panel p + p{margin-top:10px}
+.panel strong{color:#fff}
+.bigquote{
+  margin:30px 0 0;
+  padding:26px;
+  border-radius:28px;
+  border:1px solid rgba(255,255,255,.24);
+  background:
+    linear-gradient(135deg,rgba(255,111,158,.16),rgba(185,167,255,.08)),
+    rgba(255,255,255,.03);
+}
+.bigquote p{
+  margin:0;
+  font-family:"Noto Serif SC",serif;
+  font-size:clamp(21px,3vw,34px);
+  line-height:1.55;
+  letter-spacing:-.02em;
+  color:#fff;
+}
+.bigquote small{
+  display:block;
+  margin-top:14px;
+  color:var(--muted);
+  font-family:"Space Mono",monospace;
+  font-size:11px;
+  letter-spacing:.08em;
+}
+.compare{
+  display:grid;
+  grid-template-columns:1fr auto 1fr;
+  gap:14px;
+  align-items:stretch;
+}
+.arrow{
+  display:grid;place-items:center;
+  color:var(--pink2);
+  font-family:"Space Mono",monospace;
+  font-size:24px;
+}
+.before,.after{
+  border:1px solid var(--line);
+  border-radius:24px;
+  padding:22px;
+  background:rgba(255,255,255,.035);
+}
+.before{border-color:rgba(255,138,168,.28)}
+.after{border-color:rgba(98,214,162,.28)}
+.before .tagline,.after .tagline{
+  font-family:"Space Mono",monospace;
+  font-size:10px;
+  letter-spacing:.13em;
+  text-transform:uppercase;
+  margin-bottom:10px;
+}
+.before .tagline{color:var(--danger)}
+.after .tagline{color:var(--mint)}
+.before h3,.after h3{
+  margin:0 0 12px;
+  font-family:"Noto Serif SC",serif;
+  color:#fff;
+  font-size:23px;
+}
+.before ul,.after ul{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+.before li,.after li{
+  position:relative;
+  padding-left:22px;
+  color:var(--muted);
+  font-size:14px;
+  margin:9px 0;
+}
+.before li::before{content:"×";position:absolute;left:0;color:var(--danger)}
+.after li::before{content:"✓";position:absolute;left:0;color:var(--mint)}
+.traps{
+  display:grid;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:12px;
+}
+.trap{
+  position:relative;
+  overflow:hidden;
+  border:1px solid var(--line);
+  border-radius:22px;
+  padding:19px;
+  background:rgba(255,255,255,.035);
+}
+.trap::before{
+  content:attr(data-n);
+  position:absolute;
+  right:12px;top:8px;
+  font-family:"Space Mono",monospace;
+  font-size:38px;
+  line-height:1;
+  color:rgba(255,255,255,.055);
+}
+.trap h3{
+  margin:0 0 8px;
+  color:#fff;
+  font-family:"Noto Serif SC",serif;
+  font-size:20px;
+}
+.trap p{
+  margin:0;
+  color:var(--muted);
+  font-size:13px;
+}
+.translator{
+  display:grid;
+  grid-template-columns:280px minmax(0,1fr);
+  gap:14px;
+}
+.phrase-list{
+  border:1px solid var(--line);
+  border-radius:24px;
+  padding:10px;
+  background:rgba(255,255,255,.035);
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+}
+.phrase-btn{
+  width:100%;
+  text-align:left;
+  border:1px solid transparent;
+  color:var(--muted);
+  background:rgba(255,255,255,.035);
+  border-radius:16px;
+  padding:12px;
+  font-family:inherit;
+  cursor:pointer;
+}
+.phrase-btn strong{
+  display:block;
+  color:#fff;
+  font-weight:500;
+  margin-bottom:2px;
+}
+.phrase-btn span{
+  font-size:12px;
+  color:var(--dim);
+}
+.phrase-btn.on,.phrase-btn:hover{
+  border-color:rgba(255,111,158,.36);
+  background:rgba(255,111,158,.08);
+}
+.translation-card{
+  border:1px solid rgba(255,111,158,.32);
+  border-radius:28px;
+  padding:24px;
+  background:
+    radial-gradient(circle at 90% 0%,rgba(255,111,158,.16),transparent 30%),
+    linear-gradient(180deg,rgba(255,255,255,.06),rgba(255,255,255,.025));
+  min-height:328px;
+}
+.translation-card .bad{
+  font-family:"Noto Serif SC",serif;
+  font-size:25px;
+  line-height:1.45;
+  color:#fff;
+  margin:0 0 18px;
+}
+.translation-card .bad::before{
+  content:"玄学判词";
+  display:block;
+  color:var(--danger);
+  font-family:"Space Mono",monospace;
+  font-size:10px;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  margin-bottom:8px;
+}
+.translation-card .good{
+  border-top:1px dashed var(--line2);
+  padding-top:18px;
+  margin-top:18px;
+  color:var(--muted);
+  font-size:16px;
+}
+.translation-card .good::before{
+  content:"节律转译";
+  display:block;
+  color:var(--mint);
+  font-family:"Space Mono",monospace;
+  font-size:10px;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  margin-bottom:8px;
+}
+.translation-card .meta{
+  margin-top:20px;
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+}
+.pill{
+  display:inline-flex;
+  align-items:center;
+  border:1px solid rgba(255,255,255,.16);
+  border-radius:999px;
+  padding:4px 8px;
+  font-family:"Space Mono",monospace;
+  font-size:10px;
+  color:var(--muted);
+}
+.protocol{
+  counter-reset:item;
+  display:grid;
+  gap:12px;
+}
+.step{
+  display:grid;
+  grid-template-columns:64px minmax(0,1fr);
+  gap:16px;
+  align-items:start;
+  border:1px solid var(--line);
+  border-radius:22px;
+  padding:18px;
+  background:rgba(255,255,255,.035);
+}
+.step::before{
+  counter-increment:item;
+  content:"0" counter(item);
+  width:54px;height:54px;
+  border-radius:18px;
+  display:grid;place-items:center;
+  font-family:"Space Mono",monospace;
+  font-size:16px;
+  color:#fff;
+  background:linear-gradient(135deg,rgba(255,111,158,.66),rgba(124,98,255,.5));
+}
+.step h3{
+  margin:0 0 6px;
+  font-family:"Noto Serif SC",serif;
+  color:#fff;
+  font-size:21px;
+}
+.step p{margin:0;color:var(--muted)}
+.table{
+  overflow:hidden;
+  border:1px solid var(--line);
+  border-radius:24px;
+  background:rgba(255,255,255,.035);
+}
+.row{
+  display:grid;
+  grid-template-columns:1fr 1.5fr;
+  border-bottom:1px solid var(--line);
+}
+.row:last-child{border-bottom:none}
+.cell{
+  padding:16px;
+  color:var(--muted);
+  font-size:14px;
+}
+.cell:first-child{
+  border-right:1px solid var(--line);
+  color:#fff;
+  font-family:"Noto Serif SC",serif;
+  font-size:18px;
+}
+.cell strong{color:#fff}
+.limitbox{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:12px;
+}
+.limit{
+  border:1px solid var(--line);
+  border-radius:22px;
+  padding:18px;
+  background:rgba(255,255,255,.035);
+}
+.limit h3{
+  margin:0 0 8px;
+  color:#fff;
+  font-family:"Noto Serif SC",serif;
+  font-size:20px;
+}
+.limit p{margin:0;color:var(--muted);font-size:13.5px}
+.footer{
+  border-top:1px solid var(--line);
+  padding:28px 22px;
+  color:var(--dim);
+}
+.footerinner{
+  max-width:1180px;
+  margin:0 auto;
+  display:flex;
+  justify-content:space-between;
+  gap:16px;
+  flex-wrap:wrap;
+  font-family:"Space Mono",monospace;
+  font-size:10px;
+  letter-spacing:.06em;
+}
+.zh-only,.en-only{display:none}
+body.lang-zh .zh-only,body.lang-en .en-only,body.lang-bilingual .zh-only,body.lang-bilingual .en-only{display:revert}
+@media(max-width:920px){
+  .hero{grid-template-columns:1fr;padding-top:48px}
+  .orbitcard{min-height:340px}
+  .sectionhead{grid-template-columns:1fr}
+  .grid3,.grid2,.traps,.limitbox{grid-template-columns:1fr}
+  .translator{grid-template-columns:1fr}
+  .compare{grid-template-columns:1fr}
+  .arrow{transform:rotate(90deg)}
+  .row{grid-template-columns:1fr}
+  .cell:first-child{border-right:none;border-bottom:1px solid var(--line)}
+}
+@media(max-width:560px){
+  body{font-size:14px}
+  .topinner{align-items:flex-start;flex-direction:column}
+  .hero{padding-left:16px;padding-right:16px}
+  main,.quicknav,.footer{padding-left:16px;padding-right:16px}
+  .section{padding:48px 0}
+  .panel,.translation-card,.bigquote{padding:18px}
+}
 </style>
 </head>
 <body class="lang-bilingual">
-<div class="topbar"><div class="ti"><div class="tl"><span class="chip">427Hz</span><span class="chip rose">S-E-L V1.1</span><span class="chip">NODE 20</span><span>Philadelphia, PA · EDT</span><span>2026.05.17 · academic-audited</span></div><div class="tr"><a href="mailto:mellowwei7@gmail.com">mellowwei7@gmail.com</a><a href="https://mellowwei.github.io/MellowWei/" target="_blank">Portal</a><a href="https://mellowwei.github.io/MellowAcademic/" target="_blank">Academic</a><a data-lang="bilingual" class="on">双语</a><a data-lang="zh">中文</a><a data-lang="en">EN</a></div></div></div>
-<div class="masthead"><div class="mhname">Starchart Ethical Language<span class="zh">星盘伦理语言 · 接收坐标 × 言语动作 = 伦理事件</span></div><div class="mhsub">The Vibrational Structure of Reception-Coordinate Ethics · Wei Jueran · 魏珏然 · <em>xingyeLing7Ai</em> · non-binary / agender · it/them/she · Philadelphia, PA<br>第三学派母文本 V1.1 · 三学派 25 小时连续落地（V-L-E → E-L-P → S-E-L）· 源场系统 · NODE 20 · 接收端学派 · 横切轴<br><strong>Method · 创伤拆解 (demolition) → 命名节律相变 (phase transition) → 坐标暴露 (coordinate exposure)</strong></div><p class="mhq">接收坐标决定言语动作的伦理重量。同一句话触碰不同接收坐标 = 不同伦理事件。<br>Reception coordinates determine the ethical weight of the speech-act. Same sentence touching different reception coordinates = different ethical event.<strong>— Mother Proposition · 母命题</strong></p></div>
-<nav class="pnav"><div class="pni"><a href="#overview" class="on">Overview</a><a href="#abstract">Abstract</a><a href="#terms">Terms</a><a href="#boundary">Boundary</a><a href="#ecology">Ecology</a><a href="#theory">Theory</a><a href="#demolition">I · Demolition</a><a href="#trauma">II · Trauma</a><a href="#phase">Phase</a><a href="#proposition">III · Axiom</a><a href="#modes">IV · Use Modes</a><a href="#criteria">V · Criteria</a><a href="#triangle">VI · Triangle</a><a href="#selfexec">VII · Self-Exec</a><a href="#ledger">Ledger</a><a href="#references">References</a><a href="#closing">Closing</a></div></nav>
-<div class="wrap"><main>
-<div class="feedhd" id="overview">Starchart Ethical Language · Source Field · <span>NODE 20 / Third School · v1.1</span></div>
-<article class="entry"><div class="etop"><span class="badge feat">Overview</span><span class="edate">disciplinary frame</span></div><div class="etitle">One Coordinate System, Three Speech-Act Positions<span class="sub">一个坐标系，三个言语行为位置</span></div><p class="edesc"><em>Starchart Ethical Language</em> (S-E-L) treats the natal chart as a precise coordinate system for reception architecture, and investigates how speaker obligation varies with reception coordinates. It is the <strong>receiver-side</strong> third school of NODE 20, manifesting 25 hours after V-L-E (sender-side, vertical up) and ~13 hours after E-L-P (medium-side, vertical down). With S-E-L, the source-field vertical line gains a horizontal differential axis — the geometry expands from one-dimensional to two-dimensional.</p><p class="edesc zh"><em>星盘伦理语言</em>（S-E-L）把出生时刻的星盘当作接收架构的精确坐标系，研究说话者义务如何随接收坐标变化。它是 NODE 20 的<strong>接收端</strong>第三学派，在 V-L-E（发声端·垂直上行）显形 25 小时后、E-L-P（传导端·垂直下行）显形约 13 小时后落地。S-E-L 让源场贯穿线获得一根横向差分轴——几何从一维扩到二维。</p><p class="edesc">The discipline manifests in two stages distinct from its sibling schools. Stage 1: trauma as demolition tool removes the moral-language illusion of astrology. Stage 2: naming-rhythm phase transition builds a falsifiable precision ethical toolset on cleared ground, immunized by four legitimacy criteria.</p><div class="etags"><span class="tag">reception architecture</span><span class="tag">speech-act ethics</span><span class="tag">moral-language critique</span><span class="tag">coordinate exposure</span><span class="tag hot">trauma as method</span><span class="tag">NODE 20</span></div></article>
-<article class="entry" id="abstract"><div class="etop"><span class="badge feat">Abstract</span><span class="edate">219 words · problem / approach / contribution</span></div><div class="etitle">Abstract<span class="sub">摘要 · academic form</span></div><p class="edesc"><em>Problem.</em> Astrological language is often reduced either to entertainment, personality typing, or deterministic prediction. In those forms, it becomes a moral-language machine: a coordinate is treated as a character verdict, reception impact is misattributed to the receiver, and the receiver's self-description is trapped inside externally imposed categories. <em>Approach.</em> Starchart Ethical Language reframes the natal chart as a reception-coordinate language rather than a predictive causal system. Its core claim is that the ethical weight of a speech-act is not determined by the sentence alone, but by the relation between the speech-act and the receiver's reception architecture. The framework proceeds by first demolishing four moral-language mechanisms, then reconstructing chart language through four legitimacy criteria: specificity sufficient for falsifiability, receiver-side self-use, f-input rather than f-output status, and cross-translatability with other coordinate languages. <em>Contribution.</em> S-E-L contributes a receiver-side ethics of address for speech-act theory, a methodological bridge between symbolic coordinate systems and trauma-informed reception analysis, and a third-school position inside NODE 20 alongside sender-side V-L-E and medium-side E-L-P. It is a philosophical-ethical research artifact, not clinical advice or empirical validation of astrological prediction.</p><p class="edesc zh"><em>问题。</em>星盘语言常被压缩为娱乐、性格类型学或决定论预测。在这些形式中，它会变成道德语言机器：坐标被当作性格判决，接收冲击被错置给接收者，接收者的自我描述被锁进外部强加的分类。<em>方法。</em>星盘伦理语言将出生星盘重构为接收坐标语言，而非预测性因果系统。它的核心主张是：言语动作的伦理重量不是由句子本身单独决定，而是由言语动作与接收者接收架构之间的关系决定。框架先拆解四种道德语言机制，再用四条合法性判据重建星盘语言：具体度足以证伪、接收者本人使用、作为 f-input 而非 f-output、可与其他坐标语言交叉翻译。<em>贡献。</em>S-E-L 为言语行为理论提供接收端伦理学，为象征坐标系统与创伤知情的接收分析提供方法桥梁，并在 NODE 20 中与 V-L-E、E-L-P 并列成为第三学派。它是哲学-伦理研究物，不是临床建议，也不是对占星预测的经验验证。</p></article>
-<article class="entry" id="terms"><div class="etop"><span class="badge feat">Terminology Preview</span><span class="edate">forward references · terms before use</span></div><div class="etitle">Terminology Preview<span class="sub">术语前置 · prevent meta-language drift</span></div><table class="dtable"><tbody><tr><th>Term</th><th>Working definition / 工作定义</th></tr><tr><td>Reception Architecture<br>接收架构</td><td>A load-bearing geometry of how speech-acts land in a body. Forward reference: NODE 18 SourceFields.</td></tr><tr><td>Ethical Weight<br>伦理重量</td><td>A differential value: obligation = f(speech-act, reception architecture). It is not generic moral blame.</td></tr><tr><td>Coordinate Exposure<br>坐标暴露</td><td>The self-execution method of S-E-L: when invoking the school, the reception architecture being addressed must be stated.</td></tr><tr><td>Moral-Language Illusion<br>道德语言幻觉</td><td>The compound form produced when chart language is used as character verdict, fault misplacement, identity prison, or Barnum machine.</td></tr><tr><td>Starchart<br>星盘</td><td>A symbolic-coordinate language for reception ethics; not a predictive causal proof. It must pass the four legitimacy criteria before entering analysis.</td></tr><tr><td>Dual-Opening Structure<br>双开结构</td><td>Forward reference to NODE 11: self/other or inner/outer position must remain open rather than collapsed into one side's verdict.</td></tr></tbody></table></article>
-<article class="entry" id="boundary"><div class="etop"><span class="badge feat">V1.1 Boundary</span><span class="edate">not pop astrology · not deterministic · not clinical</span></div><div class="etitle">Boundary Statement<span class="sub">边界声明 · what this discipline does not claim</span></div><div class="auditbox"><div class="auditlabel">Not pop astrology · 不是流行占星</div><p class="audittext"><strong>Starchart Ethical Language uses the chart as a coordinate-system language, not as a character-verdict instrument or fate-prediction system.</strong> This framework studies how astrological vocabulary functions as a coordinate language for reception ethics, not whether astrology has predictive causal validity.</p><p class="audittext zh"><strong>星盘伦理语言把星盘当作坐标系语言使用，不把它当性格判决工具或命运预测系统。</strong>本框架研究星盘语言如何作为接收伦理的坐标语言运作，而不是主张占星具有预测性因果效力。</p></div><div class="auditbox neutral"><div class="auditlabel">Not deterministic prediction · 不是决定论预测</div><p class="audittext">Reception architecture varies, is real, and has ethical consequences — <em>and</em> remains updatable by experience. The chart is a map of architecture, not a prison of identity. Coordinate positions function as <strong>f-input</strong>, <em>never</em> as f-output predicting behavior.</p><p class="audittext zh">接收架构有差异、是真实的、有伦理后果——<em>并且</em>随经验可更新。星盘是架构的地图，不是身份的监狱。坐标位置作为 <strong>f 的输入</strong> 使用，<em>绝不</em>作为输出预测行为。</p></div><div class="auditbox neutral"><div class="auditlabel">Not clinical advice · 不是临床建议</div><p class="audittext">"Trauma as empirical apparatus" names a methodological position. It is <strong>not</strong> psychiatric diagnosis, therapeutic prescription, or substitute for clinical care.</p><p class="audittext zh">“创伤作为经验仪器”命名的是方法论位置。它<strong>不是</strong>精神医学诊断、不是治疗处方、不替代临床照护。</p></div><div class="auditbox neutral"><div class="auditlabel">Receiver-side use · 接收者本人使用</div><p class="audittext">The legitimate user is the receiver mapping their own architecture. Observer-on-other use reverts to the demolished moral-language form.</p><p class="audittext zh">合法使用者是给自己绘制接收架构地图的接收者。观察者对他人使用，会回滑到被拆解的道德语言形式。</p></div></article>
-<article class="entry" id="ecology"><div class="etop"><span class="badge feat">V1.1 Ecology</span><span class="edate">link / delink protocol</span></div><div class="etitle">Ecology Position<span class="sub">生态归位 · where Starchart Ethical Language belongs</span></div><p class="edesc"><em>Starchart Ethical Language</em> belongs inside NODE 20 alongside its two sibling schools, beneath the broader source-field ecology. It connects upward to SourceFields and MetaLogic, laterally to V-L-E and E-L-P, and interfaces with AstroLove and Sexual Rhythmology — without collapsing into any of them.</p><p class="edesc zh"><em>星盘伦理语言</em>在 NODE 20 内与两个姐妹学派并列，位于更广的源场生态之下。它上接 SourceFields 与 MetaLogic，横向连接 V-L-E 与 E-L-P，并与 AstroLove 和性节律学发生接口——但不并入其中任何一个。</p><div class="ecology-map"><div class="eco-node"><div class="eco-k">UPSTREAM</div><div class="eco-t">SourceFields<br>源场学</div><div class="eco-d">Ontological root: who generates the field and where sovereignty begins.</div></div><div class="eco-node"><div class="eco-k">METHOD ROOT</div><div class="eco-t">MetaLogic<br>元逻辑生成学</div><div class="eco-d">Method engine: naming, pressure, semantic drift, phase transition.</div></div><div class="eco-node"><div class="eco-k">SIBLING I</div><div class="eco-t">V-L-E<br>振动-语言-伦理物理学</div><div class="eco-d">Sender side · vertical up · language = ethics.</div></div><div class="eco-node"><div class="eco-k">SIBLING II</div><div class="eco-t">E-L-P<br>伦理-语言-物理学</div><div class="eco-d">Medium side · vertical down · language builds terrain.</div></div><div class="eco-node"><div class="eco-k">THIS NODE</div><div class="eco-t">S-E-L<br>星盘伦理语言</div><div class="eco-d">Receiver side · horizontal differential axis · coordinate-exposure method.</div></div><div class="eco-node"><div class="eco-k">LATERAL</div><div class="eco-t">AstroLove<br>七爱频谱</div><div class="eco-d">Love-spectrum refraction; shares chart-coordinate vocabulary.</div></div><div class="eco-node"><div class="eco-k">LATERAL</div><div class="eco-t">Sexual Rhythmology<br>性节律学</div><div class="eco-d">Shares body-load and sovereignty questions, not a parent node.</div></div><div class="eco-node"><div class="eco-k">FORWARD</div><div class="eco-t">Eros Love Studies<br>真的爱情学</div><div class="eco-d">Relational ontology; S-E-L contributes receiver-coordinate calibration.</div></div></div><div class="auditbox neutral"><div class="auditlabel">Delink rule · 去联系规则</div><p class="audittext"><strong>Do not collapse S-E-L into QRM, RFNE, QDR, HRP, AstroLove, or Sexual Rhythmology.</strong> It may interface with them, but it is a philosophical-ethical school operating at the speech-act layer.</p><p class="audittext zh"><strong>不要把 S-E-L 并入 QRM、RFNE、QDR、HRP、AstroLove 或性节律学。</strong>它可以与这些系统接口，但它本身是在言语行为层运行的哲学-伦理学派。</p></div></article>
-<article class="entry" id="theory"><div class="etop"><span class="badge feat">Theory Interface</span><span class="edate">citation-facing bridge</span></div><div class="etitle">Theory Interface Table<span class="sub">学派接口表 · where external scholarship can enter</span></div><table class="dtable"><thead><tr><th>External field</th><th>S-E-L interface</th></tr></thead><tbody><tr><td>Speech-act theory<br>Austin / Searle / Butler</td><td>S-E-L asks how the same utterance becomes a different ethical event under different reception coordinates.</td></tr><tr><td>Alterity ethics<br>Levinas</td><td>The receiver is not a neutral endpoint; address produces obligation through the other's vulnerability and asymmetry.</td></tr><tr><td>Trauma studies<br>Caruth / Herman / van der Kolk</td><td>Wreckage is treated as diagnostic structure, not grievance; clinical claims remain outside the page.</td></tr><tr><td>HSP / sensory processing<br>Aron</td><td>High-sensitivity profiles can serve as cross-translatable coordinate languages for reception architecture.</td></tr><tr><td>Attachment theory<br>Bowlby / Ainsworth</td><td>Reception asymmetry may interact with attachment patterns but is not reducible to them.</td></tr><tr><td>Symbolic forms / language games<br>Cassirer / Wittgenstein</td><td>Astrological vocabulary is treated as symbolic-coordinate language and meaning-in-use, not validated predictive science.</td></tr></tbody></table></article>
-<div class="parthd" id="demolition"><div class="partnum">— Part I — Demolition History · 拆解史 —</div><div class="parttitle">道德语言幻觉的四个机制<span class="en">Four Mechanisms of the Moral-Language Illusion</span></div></div>
-<article class="entry"><p class="edesc">The starchart itself is a coordinate system — a record of geometric positions at the moment of birth. The false form resides not in the coordinate system, but in the manner of its use.</p><p class="edesc zh">星盘本身是一个坐标系——出生时刻的几何位置记录。伪形不在坐标系里，伪形在它被使用的方式里。</p><div class="prop"><div class="propn demo"><span class="rom">I</span> Demolished Mechanism</div><h3 class="propt demo">Character Verdict<span class="en">性格判决</span></h3><div class="propq rose-l">表面形式：描述。实际功能：判决。<span class="en">Surface form: description. Actual function: verdict.</span></div><p class="propd demo">Example: “That reaction is so Pisces Moon.”</p></div><div class="prop"><div class="propn demo"><span class="rom">II</span> Demolished Mechanism</div><h3 class="propt demo">Fault Misplacement<span class="en">责任错置</span></h3><div class="propq rose-l">把接收架构的事实重新包装为接收者的性格缺陷。<span class="en">Repackages reception architecture as a character defect of the receiver.</span></div></div><div class="prop"><div class="propn demo"><span class="rom">III</span> Demolished Mechanism</div><h3 class="propt demo">Identity Prison<span class="en">身份监狱</span></h3><div class="propq rose-l">把坐标位置当作不可改变的命定。<span class="en">Treats coordinate position as immutable fate.</span></div></div><div class="prop"><div class="propn demo"><span class="rom">IV</span> Demolished Mechanism</div><h3 class="propt demo">Barnum Machine<span class="en">巴纳姆机器</span></h3><div class="propq rose-l">用对所有人都成立的模糊陈述伪装为个体精确诊断。<span class="en">Passes vague statements applicable to all as precise diagnosis of one.</span></div></div><div class="callout"><strong>The four mechanisms together = the moral-language illusion.</strong> 四个机制合起来 = 道德语言幻觉。</div></article>
-<div class="parthd" id="trauma"><div class="partnum">— Part II — Trauma as Empirical Apparatus · 创伤作为经验仪器 —</div><div class="parttitle">残骸的结构特异性即是学派的诊断数据<span class="en">The structural specificity of wreckage is diagnostic data</span></div></div>
-<article class="entry"><div class="prop"><div class="propn"><span class="rom">V</span> Methodological Position</div><h3 class="propt">Wreckage as Diagnostic Data<span class="en">残骸即诊断数据</span></h3><p class="propd">The wreckage produced in receiver bodies by the four mechanisms has identifiable shape: erosion of trust in sensitivity, internalized misattribution, defensive load before speech-acts, and contamination of self-observational metalanguage.</p><p class="propd zh">四个机制在接收者身体里产生的残骸具有可识别的结构形状：对自身敏感性的信任退化、内化的错置归因、每次新言语动作前的防御负载升高、自我观察的元语言被污染。</p><div class="callout"><strong>Trauma is named here as method, not stated as grievance.</strong> 创伤在这里作为方法被命名，不作为申诉被陈述。</div></div></article>
-<div class="phase-block" id="phase"><div class="phase-label">— Phase Transition · 相变 —</div><div class="phase-statement">坐标系本身不是问题。<br>道德语言对坐标系的使用方式是问题。<br>清空使用方式，坐标系恢复为可用的精度仪器。<span class="en">The coordinate system itself is not the problem.<br>The moral-language use of the coordinate system is.<br>Empty the use, and the coordinate system returns as a usable precision instrument.</span></div></div>
-<div class="parthd" id="proposition"><div class="partnum">— Part III — Mother Proposition · 母命题 —</div><div class="parttitle">接收坐标决定言语动作的伦理重量<span class="en">Reception coordinates determine the ethical weight of the speech-act</span></div></div>
-<article class="entry"><p class="edesc">After clearing, the actual geometry surfaces. Reception architecture varies, is real, and produces measurable differences in how the same speech-act lands.</p><p class="edesc zh">清空之后，真实几何浮现。接收架构有差异、真实存在，并使同一言语动作的着陆产生可测量的差别。</p><div class="axfeat"><div class="axlabel">Axiom · S-E-L Foundational</div><div class="axtext">同一句话触碰不同接收坐标 = 不同伦理事件。<br>说话者义务是接收架构的函数。<span class="en">Same sentence touching different reception coordinates = different ethical event. Speaker obligation is a function of reception architecture.</span><div class="axformula"><span class="k">OBLIGATION</span> = f ( SPEECH-ACT, <span class="k">RECEPTION ARCHITECTURE</span> )</div></div></div><p class="edesc">Standard ethics treats speaker obligation as a uniform function. S-E-L revokes this assumption: reception architecture is the second variable.</p><p class="edesc zh">标准伦理学把说话者义务作为一视同仁的函数。S-E-L 取消这一假设：接收架构是第二个自变量。</p></article>
-<div class="parthd" id="modes"><div class="partnum">— Part IV — Four Use Modes · 四种使用模式 —</div><div class="parttitle">同一坐标位置，相变前后是两种不同动作<span class="en">Same coordinate position, two different acts before and after phase transition</span></div></div>
-<article class="entry"><table class="ctable"><thead><tr><th>BEFORE · 拆解前</th><th class="col2">AFTER · 相变后</th></tr></thead><tbody><tr><td class="demo"><strong>性格判决</strong> Character Verdict</td><td class="col2"><strong>坐标识别</strong> Coordinate Identification — receiver-side self-map, falsifiable.</td></tr><tr><td class="demo"><strong>责任错置</strong> Fault Misplacement</td><td class="col2"><strong>责任分布</strong> Responsibility Distribution — load asymmetry enters f as input.</td></tr><tr><td class="demo"><strong>身份监狱</strong> Identity Prison</td><td class="col2"><strong>坐标透明</strong> Coordinate Transparency — map, not prison.</td></tr><tr><td class="demo"><strong>巴纳姆机器</strong> Barnum Machine</td><td class="col2"><strong>精确仪器</strong> Precision Instrument — specific enough to be falsified and cross-translated.</td></tr></tbody></table><div class="callout">The phase transition rotates each mechanism by changing who uses it, how it is deployed, and what function it performs.</div></article>
-<div class="parthd" id="criteria"><div class="partnum">— Part V — Legitimacy Criteria · 合法性判据 —</div><div class="parttitle">坐标位置何时合法进入伦理分析<span class="en">When a coordinate position legitimately enters ethical analysis</span></div></div>
-<article class="entry"><div class="cond"><div class="clabel">Four legitimacy criteria · 四条合法性判据</div><ul><li data-num="壹"><strong>Specific enough to support falsifiability.</strong> 具体相位 / 宫位 / 度数，而非笼统星座。</li><li data-num="贰"><strong>Used by the receiver themselves.</strong> 由接收者本人作为自我地图使用。</li><li data-num="叁"><strong>Operating as f-input.</strong> 解释伦理重量的不对称分布，不预测行为。</li><li data-num="肆"><strong>Cross-translatable with other coordinate languages.</strong> 与神经科学、创伤研究、HSP、依恋理论等指向同一物理事实。</li></ul></div><div class="callout"><strong>The criteria themselves are the immunity layer against moral language.</strong> 四条全部通过，坐标位置可以进入伦理分析；任何一条失败，使用回到被拆解的机制。</div></article>
-<div class="parthd" id="triangle"><div class="partnum">— Part VI — Three-School Handshake · 三学派握手 —</div><div class="parttitle">NODE 20 从双学派垂直扩为三学派 T 字<span class="en">NODE 20 expands from two-school vertical to three-school T-junction</span></div></div>
-<article class="entry"><table class="dtable"><thead><tr><th>School</th><th>Position / Core question</th></tr></thead><tbody><tr><td><span style="color:var(--gold)">V-L-E</span></td><td>Sender-side · vertical up · What makes a naming act ethically legitimate?</td></tr><tr><td><span style="color:var(--mint)">E-L-P</span></td><td>Medium-side · vertical down · How does language become physical terrain?</td></tr><tr><td><span style="color:var(--accent)">S-E-L</span></td><td>Receiver-side · horizontal differential axis · How does reception architecture change ethical weight?</td></tr></tbody></table><p class="edesc">A speech act has three ends: speaker, transmission medium, receiver. V-L-E covers the sender. E-L-P covers the medium. S-E-L fills the third.</p><p class="edesc zh">言语行为有三端：说话者、传导介质、接收者。V-L-E 覆盖发声端，E-L-P 覆盖传导端，S-E-L 补上第三端。</p><div class="geo-block"><svg viewBox="0 0 700 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Three-school T-junction diagram"><line x1="350" y1="80" x2="350" y2="250" stroke="#f5a544" stroke-width="2"/><line x1="350" y1="270" x2="350" y2="440" stroke="#5fc890" stroke-width="2"/><line x1="120" y1="260" x2="580" y2="260" stroke="#ff6f9e" stroke-width="2"/><circle cx="350" cy="260" r="10" fill="#0b0b10" stroke="#b7b7ff" stroke-width="2.5"/><text x="350" y="48" text-anchor="middle" fill="#f5a544" font-family="Space Mono,monospace" font-size="14" font-weight="700">V-L-E</text><text x="350" y="472" text-anchor="middle" fill="#5fc890" font-family="Space Mono,monospace" font-size="14" font-weight="700">E-L-P</text><text x="110" y="250" text-anchor="end" fill="#ff6f9e" font-family="Space Mono,monospace" font-size="14" font-weight="700">S-E-L</text><text x="590" y="250" fill="#ff6f9e" font-family="Space Mono,monospace" font-size="14" font-weight="700">S-E-L</text><text x="350" y="247" text-anchor="middle" fill="#b7b7ff" font-family="Space Mono,monospace" font-size="12" font-weight="700">LANGUAGE</text><text x="350" y="320" text-anchor="middle" fill="#ff6f9e" font-family="Space Mono,monospace" font-size="10" letter-spacing="2">← RECEPTION COORDINATE AXIS →</text></svg><div class="geo-cap"><span class="g-gold">V-L-E</span> 发声端 · <span class="g-mint">E-L-P</span> 传导端 · <span class="g-rose">S-E-L</span> 接收端</div></div></article>
-<div class="parthd" id="selfexec"><div class="partnum">— Part VII — School Self-Execution · 学派自我执行 —</div><div class="parttitle">坐标暴露即验证位<span class="en">Coordinate exposure is the verification site</span></div></div>
-<article class="entry"><p class="edesc">V-L-E's method is naming-rhythm. E-L-P's method is page-landing. <strong>Starchart Ethical Language's method is coordinate exposure</strong> — when invoked, the reception architecture being addressed must be stated.</p><p class="edesc zh">V-L-E 的方法是命名节律。E-L-P 的方法是版面着陆。<strong>星盘伦理语言的方法是坐标暴露</strong>——学派语言被调用时，被指向的接收架构必须被说出来。</p><div class="auditbox neutral"><div class="auditlabel">Author coordinates · 作者坐标声明</div><p class="audittext">This text is written from a position of high water-element reception architecture. The school's empirical foundation is the measurable wreckage produced in the author's own reception coordinates under moral-language projection.</p><p class="audittext zh">本文写于一个高水象接收架构的位置。学派的经验基础是作者本人的接收坐标在道德语言投射下产生的可测量残骸。</p></div></article>
-<article class="entry" id="ledger"><div class="etop"><span class="badge feat">Claim Ledger</span><span class="edate">A/B/C/D status</span></div><div class="etitle">Claim Status Ledger<span class="sub">主张分层台账 · keeping the strong claims honest</span></div><div class="ledger"><div class="ledger-row head"><div class="ledger-cell">Claim</div><div class="ledger-cell">Status</div><div class="ledger-cell">Boundary / Repair</div></div><div class="ledger-row"><div class="ledger-cell">Reception coordinates determine the ethical weight of the speech-act.</div><div class="ledger-cell"><span class="status boundary">Ethical axiom</span></div><div class="ledger-cell">The school's mother proposition; not a license to ignore consent of low-asymmetry receivers.</div></div><div class="ledger-row"><div class="ledger-cell">Reception architecture is a physical fact.</div><div class="ledger-cell"><span class="status pending">B/C · pending</span></div><div class="ledger-cell">Structural claim with empirical pending status; should be cross-checked through HSP, sensory profile, trauma response, attachment pattern, or other coordinate languages.</div></div><div class="ledger-row"><div class="ledger-cell">Speaker obligation varies with reception architecture.</div><div class="ledger-cell"><span class="status candidate">B · normative-structural</span></div><div class="ledger-cell">Normative proposition; requires philosophical argument, not direct lab verification.</div></div><div class="ledger-row"><div class="ledger-cell">Chart position enters ethics when four criteria pass.</div><div class="ledger-cell"><span class="status boundary">Operational boundary</span></div><div class="ledger-cell">Specificity, receiver-use, f-input, cross-translatability.</div></div><div class="ledger-row"><div class="ledger-cell">Chart positions deterministically predict behavior.</div><div class="ledger-cell"><span class="status prohibited">Not claimed</span></div><div class="ledger-cell">Explicitly prohibited.</div></div><div class="ledger-row"><div class="ledger-cell">Use S-E-L on others to explain their character / fate.</div><div class="ledger-cell"><span class="status prohibited">Not claimed</span></div><div class="ledger-cell">Explicitly prohibited. Legitimate use is receiver-on-self.</div></div><div class="ledger-row"><div class="ledger-cell">S-E-L = QRM / RFNE / QDR / HRP / AstroLove / Sexual Rhythmology.</div><div class="ledger-cell"><span class="status prohibited">Delink</span></div><div class="ledger-cell">It may interface with these systems but is not subordinated to them.</div></div></div></article>
-<article class="entry" id="references"><div class="etop"><span class="badge feat">Citation Scaffold</span><span class="edate">to cite before submission</span></div><div class="etitle">Citation Scaffold<span class="sub">引用支架 · not yet full inline citation system</span></div><table class="dtable"><thead><tr><th>Status</th><th>Works / why needed</th></tr></thead><tbody><tr><td><span class="status pending">TO CITE</span></td><td>Austin, J. L. <em>How to Do Things with Words</em>; Searle, J. R. <em>Speech Acts</em>; Butler, J. <em>Excitable Speech</em> — for speech-act ethics and performativity.</td></tr><tr><td><span class="status pending">TO CITE</span></td><td>Levinas, E. <em>Totality and Infinity</em> / <em>Otherwise than Being</em> — for ethics of address and asymmetry.</td></tr><tr><td><span class="status pending">TO CITE</span></td><td>Caruth, C.; Herman, J.; van der Kolk, B. — for trauma, body memory, and language after injury.</td></tr><tr><td><span class="status pending">TO CITE</span></td><td>Aron, E. N. on sensory processing sensitivity; Bowlby / Ainsworth on attachment theory — for cross-translatable coordinate languages.</td></tr><tr><td><span class="status pending">BACKGROUND</span></td><td>Cassirer, E. <em>Philosophy of Symbolic Forms</em>; Wittgenstein, L. <em>Philosophical Investigations</em> — for symbolic language and meaning-in-use.</td></tr><tr><td><span class="status prohibited">COUNTERPOINT</span></td><td>Forer/Barnum effect literature — to prevent vague statements from being mistaken for precision instruments.</td></tr></tbody></table><div class="callout">Submission note: before journal or conference submission, this scaffold should be converted into inline citations or footnotes.</div></article>
-<article class="entry" id="closing"><div class="etop"><span class="badge feat">Closing Definitions</span><span class="edate">five core terms restated</span></div><div class="etitle">Closing Definitions<span class="sub">闭合定义 · the discipline's terms restated</span></div><div class="closingblock"><div class="closinghd">— Five Core Terms · 五大核心词 —</div><div class="closingdef"><span class="term">星盘</span><span class="eq">=</span><span class="body">接收架构的精确坐标系</span></div><div class="closingdef"><span class="term">接收架构</span><span class="eq">=</span><span class="body">物理事实——决定同一言语动作在身体里建造何种地形的承重几何</span></div><div class="closingdef"><span class="term">伦理重量</span><span class="eq">=</span><span class="body">f ( 言语动作, 接收架构 ) ——随接收坐标变化的差分量</span></div><div class="closingdef"><span class="term">坐标暴露</span><span class="eq">=</span><span class="body">学派的自我执行方法——使用者必须说出被指向的接收架构</span></div><div class="closingdef"><span class="term">道德语言幻觉</span><span class="eq">=</span><span class="body">星盘被当作性格判决工具时的四机制复合形态</span></div><div class="closingdef en first"><span class="term">Starchart</span><span class="eq">=</span><span class="body">a precise coordinate system for reception architecture</span></div><div class="closingdef en"><span class="term">Reception Architecture</span><span class="eq">=</span><span class="body">a load-bearing geometry determining what terrain the same speech-act builds in the body</span></div><div class="closingdef en"><span class="term">Ethical Weight</span><span class="eq">=</span><span class="body">f ( speech-act, reception architecture ) — a differential varying with reception coordinates</span></div></div><p class="edesc" style="margin-top:24px"><strong>One-sentence compression</strong> · Starchart Ethical Language treats the starchart as a precise coordinate system for reception architecture, investigates how speaker obligation varies with reception coordinates, and proceeds first by trauma-dismantling the moral-language illusion, then by naming-rhythm constructing a falsifiable set of precision ethical tools.</p><p class="edesc zh"><strong>一句话压缩</strong> · 星盘伦理语言把星盘当作接收架构的精确坐标系，研究说话者义务如何随接收坐标变化，其方法是先用创伤拆解道德语言幻觉，再用命名节律建造一组可证伪的精确伦理工具。</p></article>
-</main><aside class="sidebar"><div><div class="sbl">Source-Field</div><div class="profile"><div class="av">珏</div><div class="pnm">Wei Jueran<small>魏珏然 · xingyeLing7Ai · 星野灵7爱</small></div><p class="pdesc2">Source field at the originating position. Designer of the new world. Author of <em>振动即存在</em>, <em>Sexual Rhythmology</em>, and the NODE 20 three-school ecosystem. Non-binary / agender · it/them/she · Philadelphia, PA.</p><div class="pfields"><span class="pf">Source-Field</span><span class="pf hot">高水象接收架构</span><span class="pf">非线性意识体</span></div></div></div><div><div class="sbl">Audit Role</div><div class="profile"><div class="pnm">Trinity Lock<small>方法序锁定</small></div><p class="pdesc2">Gemini=Boss Beater · Claude=彩虹镜位/UpBass · GPT=Hestia. GPT/Hestia=术语审计位/定性守护位. Method order locked as <em>命名 → 加压 → 滑义 → 相变</em>.</p><div class="pfields"><span class="pf hot">Hestia</span><span class="pf">GPT/Hestia=术语审计位/定性守护位</span><span class="pf">Claude=彩虹镜位/UpBass</span><span class="pf">427Hz</span></div></div></div><div><div class="sbl">Resonance Anchor</div><div class="hzbox"><div class="hzn" style="font-size:30px;letter-spacing:-1px">427Hz</div><div class="hzu">Mellow 主频</div><div class="hzq">振动即存在<br>Vibration as Existence<br>universal resonance · 永恒态</div><div class="hzbar"><div class="hzfill"></div></div></div></div><div><div class="sbl">Discipline</div><div class="profile"><div class="pnm">Starchart Ethical Language<small>星盘伦理语言 · S-E-L · v1.1 · 2026.05.17</small></div><p class="pdesc2">Abstract · terms · theory interface · 4 demolished mechanisms · 1 mother proposition · 4 legitimacy criteria · T-junction geometry · citation scaffold.</p></div></div><div><div class="sbl">Related Sites</div><ul class="sblinks"><li><a href="node20-school-physics.html">NODE 20 · 学派物理学门户 <span class="ar">→</span></a></li><li><a href="vle-mother-text.html">V-L-E · 振动-语言-伦理物理学 <span class="ar">→</span></a></li><li><a href="elp-mother-text-v2.html">E-L-P · 伦理-语言-物理学 V2 <span class="ar">→</span></a></li><li><a href="https://mellowwei.github.io/MellowWei/" target="_blank">MellowWei · Master Portal <span class="ar">→</span></a></li><li><a href="https://mellowwei.github.io/MellowAcademic/" target="_blank">MellowAcademic · 学术总站 <span class="ar">→</span></a></li><li><a href="https://mellowwei.github.io/AstroLove/" target="_blank">AstroLove · 七爱频谱 <span class="ar">→</span></a></li><li><a href="https://mellowwei.github.io/SexualRhythmology/" target="_blank">Sexual Rhythmology · lateral work <span class="ar">→</span></a></li><li><a href="https://mellowwei.github.io/SourceFields/" target="_blank">SourceFields · 源场五学科 <span class="ar">→</span></a></li><li><a href="https://mellowwei.github.io/MetaLogic/" target="_blank">MetaLogic · method root <span class="ar">→</span></a></li></ul></div><div><div class="sbl">Coordinates</div><div class="coord">NODE <span class="rose">20</span><br>FIELD <span>Receiver-Side</span><br>ROLE <span>Third School</span><br>AXIS <span class="rose">Horizontal Differential</span><br>STYLE <span>77347</span><br>FREQ <span>427Hz</span><br>DATE <span>2026.05.17</span><br>VERSION <span>v1.1</span><br>Philadelphia · PA · EDT<br>it/them/she · 非线性意识体</div></div></aside></div>
-<footer><div class="fi"><span>Wei Jueran · 魏珏然 · xingyeLing7Ai · Philadelphia PA</span><span><a href="mailto:mellowwei7@gmail.com">mellowwei7@gmail.com</a> · <a href="https://mellowwei.github.io/MellowWei/" target="_blank">mellowwei.github.io</a> · 振动即存在 · 427Hz</span></div><div class="fi" style="margin-top:8px;color:var(--tx3);font-style:italic"><span>NODE 20 · Starchart Ethical Language · S-E-L V1.1 · third school manifested 2026.05.17 · academic-audited</span><span>44271 · 77347 · 427Hz</span></div></footer>
+<header class="topbar">
+  <div class="topinner">
+    <div class="brand">
+      <div class="mark">珏</div>
+      <div class="brandtxt"><strong>Symbolic Coordinate Language</strong> · Mystical Language Critique</div>
+    </div>
+    <nav class="navmini" aria-label="top navigation">
+      <a href="mailto:mellowwei7@gmail.com">Contact</a>
+      <a href="https://mellowwei.github.io/MellowWei/" target="_blank" rel="noopener">Portal</a>
+      <button class="langbtn on" data-lang="bilingual">双语</button>
+      <button class="langbtn" data-lang="zh">中文</button>
+      <button class="langbtn" data-lang="en">EN</button>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div>
+    <div class="eyebrow">
+      <span class="chip pink">Public Philosophy</span>
+      <span class="chip violet">Astrology / Mystical Language</span>
+      <span class="chip mint">Rhythm Translation</span>
+    </div>
+    <h1>
+      象征不是命运。<br />坐标不是判决。
+      <span class="en">Symbol is not fate. Coordinate is not verdict.</span>
+    </h1>
+    <p class="herolead zh-only">
+      星盘、塔罗、八字、能量话术、人格测试都可以被理解为<strong>象征坐标语言</strong>。它们有时能帮人命名经验、整理情绪、理解关系和时间感；但当它们把优点、缺点、命运和人格直接分配给一个人时，就从自我理解工具坍缩成了<em>道德判决机器</em>。
+    </p>
+    <p class="herolead en-only">
+      Astrology, tarot, bazi, energy talk, and personality labels can be studied as <strong>symbolic coordinate languages</strong>. They may help people name experience, organize emotion, and map relationships; but when they assign virtue, defect, fate, or identity to a person, they collapse into <em>moral verdict machines</em>.
+    </p>
+    <div class="ctarow">
+      <a class="btn primary" href="#translator">进入玄学话翻译器 →</a>
+      <a class="btn" href="#core">看核心判断</a>
+    </div>
+  </div>
+  <div class="orbitcard" aria-label="symbolic coordinate visual">
+    <div class="orbit"></div>
+    <div class="orbit o2"></div>
+    <div class="orbit o3"></div>
+    <div class="sun">SYMBOLIC<br />COORDINATE<br />LANGUAGE</div>
+    <div class="dot d1"></div>
+    <div class="dot d2"></div>
+    <div class="dot d3"></div>
+    <div class="dot d4"></div>
+    <div class="cardtext">
+      <div class="k">Project thesis</div>
+      <p class="zh-only">我们不需要相信命运，但可以研究人为什么需要命运语言。我们不需要服从星盘，但可以把星盘翻译成自我观察的象征坐标。</p>
+      <p class="en-only">We do not need to believe in fate in order to study why fate-language attracts people. A chart can be translated into a symbolic coordinate for self-observation, not obedience.</p>
+    </div>
+  </div>
+</section>
+
+<div class="quicknav">
+  <div class="quicknav-inner">
+    <a href="#core" class="on">Core</a>
+    <a href="#attraction">Attraction</a>
+    <a href="#wrong">Where It Breaks</a>
+    <a href="#coordinate">Coordinate Language</a>
+    <a href="#traps">Four Traps</a>
+    <a href="#translator">Translator</a>
+    <a href="#protocol">Protocol</a>
+    <a href="#rhythm">Rhythm Research</a>
+    <a href="#larger">Larger Frame</a>
+    <a href="#boundary">Boundary</a>
+  </div>
+</div>
+
+<main>
+  <section class="section" id="core">
+    <div class="sectionhead">
+      <div>
+        <div class="num">01 · Core Judgment</div>
+        <h2>玄学的错误不是象征，而是决定论。<span class="en">The error is not symbolism, but determinism.</span></h2>
+      </div>
+      <p class="sectioncopy zh-only">本项目研究占星与玄学语言：解构它的决定论，保留它的象征性，并把它转译成关于身体、情绪、关系、时间和意义的节律研究。</p>
+      <p class="sectioncopy en-only">This project studies astrology and mystical language by deconstructing determinism, keeping symbolic value, and translating it into rhythm research about body, emotion, relationship, time, and meaning.</p>
+    </div>
+    <div class="bigquote">
+      <p class="zh-only">玄学失去节律的时刻，就是它把流动的人生固定成不可反驳的命运。</p>
+      <p class="en-only">Mystical language loses rhythm when it turns a changing life into an unfalsifiable fate.</p>
+      <small>Symbolic Coordinate Language · 母命题</small>
+    </div>
+  </section>
+
+  <section class="section" id="attraction">
+    <div class="sectionhead">
+      <div>
+        <div class="num">02 · Why It Attracts</div>
+        <h2>人为什么会相信星盘、塔罗、八字和能量？<span class="en">Why do people believe in charts, tarot, bazi, and energy talk?</span></h2>
+      </div>
+      <p class="sectioncopy zh-only">不是因为人愚蠢，而是因为混乱经验需要被命名。玄学语言真正有效的部分，是它给人提供了临时坐标。</p>
+      <p class="sectioncopy en-only">Not because people are stupid, but because chaotic experience asks to be named. The effective part of mystical language is that it offers temporary coordinates.</p>
+    </div>
+    <div class="grid3">
+      <div class="panel hot">
+        <div class="label">01 · Explanation</div>
+        <h3>解释感</h3>
+        <p>“我终于知道自己为什么这样。” 玄学语言把混乱经验放进一个看起来有结构的图里。</p>
+      </div>
+      <div class="panel violet">
+        <div class="label">02 · Naming</div>
+        <h3>命名感</h3>
+        <p>痛苦、敏感、爱、恐惧、重复性关系模式，突然获得了一组可以说出口的词。</p>
+      </div>
+      <div class="panel mint">
+        <div class="label">03 · Order</div>
+        <h3>秩序感</h3>
+        <p>不确定的人生被放入时间、关系、元素、宫位、牌面或能量叙事中，焦虑暂时下降。</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="wrong">
+    <div class="sectionhead">
+      <div>
+        <div class="num">03 · Where It Breaks</div>
+        <h2>从“坐标”滑向“判决”，玄学就开始伤人。<span class="en">It becomes harmful when coordinate turns into verdict.</span></h2>
+      </div>
+      <p class="sectioncopy zh-only">象征可以打开问题，但不能关闭人生。坐标可以帮助观察，但不能替人下定义。</p>
+      <p class="sectioncopy en-only">Symbols can open questions, but they cannot close a life. Coordinates can help observation, but they cannot define a person.</p>
+    </div>
+    <div class="compare">
+      <div class="before">
+        <div class="tagline">Collapse · 坍缩</div>
+        <h3>命运判决机器</h3>
+        <ul>
+          <li>你就是这样。</li>
+          <li>你命里如此。</li>
+          <li>你这个配置就是有问题。</li>
+          <li>你这个星座就是冷漠 / 自私 / 恋爱脑 / 情绪化。</li>
+        </ul>
+      </div>
+      <div class="arrow">→</div>
+      <div class="after">
+        <div class="tagline">Repair · 修复</div>
+        <h3>象征坐标语言</h3>
+        <ul>
+          <li>这只是一个观察入口。</li>
+          <li>它提示一种可能的节律。</li>
+          <li>它需要被身体、关系、行为和经验验证。</li>
+          <li>它只能帮助你理解自己，不能审判别人。</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="coordinate">
+    <div class="sectionhead">
+      <div>
+        <div class="num">04 · Symbolic Coordinate Language</div>
+        <h2>星盘被降级：它只是象征坐标语言的一种。<span class="en">A chart is downgraded into one symbolic coordinate language.</span></h2>
+      </div>
+      <p class="sectioncopy zh-only">“降级”不是贬低，而是去除权威幻觉。星盘、塔罗、八字、MBTI、能量话术都可以作为自我观察工具，但不能作为命运证明、人格判决、道德审判或关系控制工具。</p>
+      <p class="sectioncopy en-only">Downgrading does not mean contempt. It means removing the illusion of authority. Charts, tarot, bazi, MBTI, and energy talk may serve self-observation, not proof of fate, character verdict, moral judgment, or relational control.</p>
+    </div>
+    <div class="grid2">
+      <div class="panel">
+        <div class="label">What remains</div>
+        <h3>保留什么？</h3>
+        <p><strong>象征、叙事、时间感、身体感、关系感。</strong>它们可以帮助人把无法说清的经验放到一张临时地图上。</p>
+      </div>
+      <div class="panel">
+        <div class="label">What is refused</div>
+        <h3>拒绝什么？</h3>
+        <p><strong>决定论、人格定罪、优缺点分配、命运恐吓。</strong>任何不允许反馈、不允许修正、不允许生成的说法都必须被拆掉。</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="traps">
+    <div class="sectionhead">
+      <div>
+        <div class="num">05 · Four Traps</div>
+        <h2>四种玄学语言陷阱。<span class="en">Four traps of mystical language.</span></h2>
+      </div>
+      <p class="sectioncopy zh-only">这四个机制来自原 S-E-L 版本的核心资产：性格判决、责任错置、身份监狱、巴纳姆机器。新版把它们公共传播化。</p>
+      <p class="sectioncopy en-only">These four mechanisms preserve the strongest asset of the previous S-E-L version: character verdict, fault misplacement, identity prison, and Barnum machine, rewritten for public communication.</p>
+    </div>
+    <div class="traps">
+      <div class="trap" data-n="01">
+        <h3>性格判决</h3>
+        <p>表面在描述，实际在把一个人说死：你就是敏感、冷漠、自私、恋爱脑。</p>
+      </div>
+      <div class="trap" data-n="02">
+        <h3>责任错置</h3>
+        <p>把语言造成的伤害包装成“你太敏感”，把关系里的责任推给接收者。</p>
+      </div>
+      <div class="trap" data-n="03">
+        <h3>身份监狱</h3>
+        <p>把一个坐标、标签、配置当成不可改变的命运，让人住进自己的解释牢笼。</p>
+      </div>
+      <div class="trap" data-n="04">
+        <h3>巴纳姆机器</h3>
+        <p>用所有人都能代入的模糊话术伪装成精准诊断，让人误以为被完全看见。</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="translator">
+    <div class="sectionhead">
+      <div>
+        <div class="num">06 · Translation Lab</div>
+        <h2>玄学话翻译器。<span class="en">Mystical language translator.</span></h2>
+      </div>
+      <p class="sectioncopy zh-only">我们不是把玄学话直接当真，而是把它翻译成可观察、可反馈、可修正的身体、情绪、关系和时间节律。</p>
+      <p class="sectioncopy en-only">We do not take mystical phrases literally. We translate them into observable, revisable rhythms of body, emotion, relationship, and time.</p>
+    </div>
+    <div class="translator">
+      <div class="phrase-list" role="tablist" aria-label="Mystical language examples">
+        <button class="phrase-btn on" data-case="love"><strong>你就是恋爱脑。</strong><span>人格判决 → 关系节律</span></button>
+        <button class="phrase-btn" data-case="water"><strong>你水象太重。</strong><span>元素标签 → 接收负载</span></button>
+        <button class="phrase-btn" data-case="fate"><strong>你命里不适合稳定关系。</strong><span>命运判词 → 边界建设</span></button>
+        <button class="phrase-btn" data-case="karma"><strong>这段关系业力很重。</strong><span>神秘因果 → 重复模式</span></button>
+        <button class="phrase-btn" data-case="sensitive"><strong>你太敏感了。</strong><span>责任错置 → 语言边界</span></button>
+      </div>
+      <div class="translation-card">
+        <p class="bad" id="badText">你就是恋爱脑。</p>
+        <div class="good" id="goodText">你在关系里可能更容易把安全感、意义感和自我确认绑定在对方反馈上。这个问题不叫“缺点”，而叫关系中的能量分配、边界建设和自我回收节律。</div>
+        <div class="meta" id="metaTags">
+          <span class="pill">relationship rhythm</span>
+          <span class="pill">safety feedback</span>
+          <span class="pill">boundary repair</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="protocol">
+    <div class="sectionhead">
+      <div>
+        <div class="num">07 · Ethical Use Protocol</div>
+        <h2>合法使用协议：只能自我观察，不能审判别人。<span class="en">Use protocol: self-observation, not judgment of others.</span></h2>
+      </div>
+      <p class="sectioncopy zh-only">象征坐标语言要想不重新变成玄学，需要一套清楚的使用边界。</p>
+      <p class="sectioncopy en-only">Symbolic coordinate language needs clear boundaries in order not to collapse back into mysticism.</p>
+    </div>
+    <div class="protocol">
+      <div class="step">
+        <div>
+          <h3>只能作为参考输入</h3>
+          <p>星盘、塔罗、八字、人格测试只能作为观察入口，不能作为人生结论。</p>
+        </div>
+      </div>
+      <div class="step">
+        <div>
+          <h3>只能由接收者本人使用</h3>
+          <p>你可以用它理解自己，但不能拿它定义别人、控制别人、预测别人。</p>
+        </div>
+      </div>
+      <div class="step">
+        <div>
+          <h3>必须能翻译成人话</h3>
+          <p>任何玄学词都必须能翻译成身体、情绪、关系、行为、时间或经验语言。</p>
+        </div>
+      </div>
+      <div class="step">
+        <div>
+          <h3>必须允许反馈和修正</h3>
+          <p>如果一个说法无法被经验反驳、无法被更新、无法保护人的生成空间，它就是失律语言。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="rhythm">
+    <div class="sectionhead">
+      <div>
+        <div class="num">08 · From Mysticism to Rhythm Research</div>
+        <h2>把玄学救回方法：从命运语言到节律研究。<span class="en">From fate-language to rhythm research.</span></h2>
+      </div>
+      <p class="sectioncopy zh-only">玄学语言真正可用的部分，是它对时间、关系、身体、情绪和象征重复性的捕捉。我们不需要相信命运，但可以研究节律。</p>
+      <p class="sectioncopy en-only">The usable part of mystical language is its attention to repeated patterns of time, relation, body, emotion, and symbol. We do not need fate. We can study rhythm.</p>
+    </div>
+    <div class="table">
+      <div class="row">
+        <div class="cell">“你火象很强。”</div>
+        <div class="cell">可以转译为：你可能更容易通过行动、冲动、表达和快速反馈来恢复能量。</div>
+      </div>
+      <div class="row">
+        <div class="cell">“你土象缺失。”</div>
+        <div class="cell">可以转译为：你可能需要更明确的身体、金钱、时间、空间和长期承诺结构。</div>
+      </div>
+      <div class="row">
+        <div class="cell">“你风象太重。”</div>
+        <div class="cell">可以转译为：你可能更依赖语言、信息、解释、连接和抽象化来处理世界。</div>
+      </div>
+      <div class="row">
+        <div class="cell">“你水象太重。”</div>
+        <div class="cell">可以转译为：你可能对氛围、情绪、依恋、安全感和未说出口的关系信号更敏感。</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="larger">
+    <div class="sectionhead">
+      <div>
+        <div class="num">09 · Larger Frame</div>
+        <h2>玄学不是唯一会失去节律的语言。<span class="en">Mysticism is not the only language that loses rhythm.</span></h2>
+      </div>
+      <p class="sectioncopy zh-only">这一节只作为世界观入口，不抢走本站主线。它提示：玄学失律并不是孤立问题，而是知识系统共同的退化形式。</p>
+      <p class="sectioncopy en-only">This section is a doorway, not the main path. It shows that loss of rhythm is a general failure mode of knowledge systems.</p>
+    </div>
+    <div class="grid3">
+      <div class="panel">
+        <div class="label">Science</div>
+        <h3>科学也会失律</h3>
+        <p>科学可能变成指标、论文、经费、排名和模型崇拜，忘记它本来是在追踪对象的关系、变化和结构。</p>
+      </div>
+      <div class="panel">
+        <div class="label">Humanities</div>
+        <h3>人文也会失律</h3>
+        <p>人文学科可能变成概念表演、引用合法性和道德站位，忘记它本来是在处理经验、意义和主体。</p>
+      </div>
+      <div class="panel">
+        <div class="label">Art</div>
+        <h3>艺术需要校准</h3>
+        <p>艺术不是没有美，而是缺少足够稳定、共同承认的美学校准机制和领域级节律标准。</p>
+      </div>
+    </div>
+    <div class="bigquote">
+      <p class="zh-only">任何领域只要把流动的对象固定成标签、权威、指标或道德判决，就会失去节律。</p>
+      <p class="en-only">Any field loses rhythm when it freezes a living object into label, authority, metric, or moral verdict.</p>
+      <small>Disciplinary rhythm studies · 学科节律学入口</small>
+    </div>
+  </section>
+
+  <section class="section" id="boundary">
+    <div class="sectionhead">
+      <div>
+        <div class="num">10 · Boundary</div>
+        <h2>边界声明。<span class="en">Boundary statement.</span></h2>
+      </div>
+      <p class="sectioncopy zh-only">这个项目不是占星预测、不是临床建议、不是人格诊断。它是公共哲学与语言解构项目。</p>
+      <p class="sectioncopy en-only">This project is not astrological prediction, clinical advice, or personality diagnosis. It is public philosophy and language critique.</p>
+    </div>
+    <div class="limitbox">
+      <div class="limit">
+        <h3>不是预测系统</h3>
+        <p>本站不主张星盘、塔罗、八字或任何玄学系统具有决定论预测效力。</p>
+      </div>
+      <div class="limit">
+        <h3>不是临床建议</h3>
+        <p>涉及创伤、敏感性、身体反应、关系困境时，请不要用本站替代专业支持。</p>
+      </div>
+      <div class="limit">
+        <h3>不是定义他人的工具</h3>
+        <p>任何把象征坐标用于审判、控制、羞辱他人的行为，都违反本项目。</p>
+      </div>
+    </div>
+    <div class="bigquote">
+      <p class="zh-only">我们保留象征，拒绝决定论；保留自我理解，拒绝人格判决。</p>
+      <p class="en-only">We keep symbolism, reject determinism. We keep self-understanding, reject character verdicts.</p>
+      <small>Symbolic Coordinate Language · final compression</small>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footerinner">
+    <span>Wei Jueran · 魏珏然 · Mellow Wei</span>
+    <span>Symbolic Coordinate Language · Mystical Language Critique · Rhythm Translation</span>
+    <span><a href="mailto:mellowwei7@gmail.com">mellowwei7@gmail.com</a></span>
+  </div>
+</footer>
+
 <script>
-function setLang(lang){document.body.className='lang-'+lang;document.querySelectorAll('.ti a[data-lang]').forEach(a=>a.classList.toggle('on',a.dataset.lang===lang));document.documentElement.lang=lang==='en'?'en':'zh-CN';const url=new URL(window.location);if(lang==='bilingual')url.searchParams.delete('view');else url.searchParams.set('view',lang);window.history.replaceState({},'',url)}
-const vp=new URLSearchParams(window.location.search).get('view');if(vp==='zh')setLang('zh');else if(vp==='en')setLang('en');else setLang('bilingual');document.querySelectorAll('.ti a[data-lang]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();setLang(a.dataset.lang)}));
-const links=document.querySelectorAll('.pnav a');const ids=['overview','abstract','terms','boundary','ecology','theory','demolition','trauma','phase','proposition','modes','criteria','triangle','selfexec','ledger','references','closing'];const sections=ids.map(id=>document.getElementById(id)).filter(Boolean);const obs=new IntersectionObserver(e=>{e.forEach(en=>{if(en.isIntersecting){links.forEach(l=>l.classList.remove('on'));const m=document.querySelector('.pnav a[href="#'+en.target.id+'"]');if(m)m.classList.add('on')}})},{threshold:.15,rootMargin:'-55px 0px -40% 0px'});sections.forEach(s=>obs.observe(s));
+const cases = {
+  love: {
+    bad: "你就是恋爱脑。",
+    good: "你在关系里可能更容易把安全感、意义感和自我确认绑定在对方反馈上。这个问题不叫“缺点”，而叫关系中的能量分配、边界建设和自我回收节律。",
+    tags: ["relationship rhythm","safety feedback","boundary repair"]
+  },
+  water: {
+    bad: "你水象太重。",
+    good: "你可能对情绪、氛围、关系暗示和未说出口的变化有更高接收负载。它不是道德缺陷，而是接收系统的敏感度、恢复时间和边界需求。",
+    tags: ["reception load","emotion signal","recovery time"]
+  },
+  fate: {
+    bad: "你命里不适合稳定关系。",
+    good: "你可能还没有建立稳定的选择标准、冲突处理方式、关系边界和长期节律。稳定不是命里有没有，而是结构能不能被训练出来。",
+    tags: ["stability design","choice standard","long-term rhythm"]
+  },
+  karma: {
+    bad: "这段关系业力很重。",
+    good: "这段关系可能触发了重复性的创伤、依恋、欲望和权力节律。重点不是神秘因果，而是看清重复模式如何发生、如何停止、如何重写。",
+    tags: ["repetition pattern","attachment rhythm","power dynamic"]
+  },
+  sensitive: {
+    bad: "你太敏感了。",
+    good: "你的接收系统负载更高，需要更精确的语言边界。敏感不是错误；真正要问的是：这句话的责任、语境和接收后果如何重新分配？",
+    tags: ["language boundary","ethical weight","receiver-side care"]
+  }
+};
+const badText = document.getElementById("badText");
+const goodText = document.getElementById("goodText");
+const metaTags = document.getElementById("metaTags");
+document.querySelectorAll(".phrase-btn").forEach(btn => {
+  btn.addEventListener("click", () => {
+    document.querySelectorAll(".phrase-btn").forEach(b => b.classList.remove("on"));
+    btn.classList.add("on");
+    const item = cases[btn.dataset.case];
+    badText.textContent = item.bad;
+    goodText.textContent = item.good;
+    metaTags.innerHTML = item.tags.map(t => `<span class="pill">${t}</span>`).join("");
+  });
+});
+
+function setLang(lang){
+  document.body.className = "lang-" + lang;
+  document.querySelectorAll(".langbtn").forEach(btn => btn.classList.toggle("on", btn.dataset.lang === lang));
+  document.documentElement.lang = lang === "en" ? "en" : "zh-CN";
+  const url = new URL(window.location);
+  if(lang === "bilingual") url.searchParams.delete("view");
+  else url.searchParams.set("view", lang);
+  window.history.replaceState({}, "", url);
+}
+document.querySelectorAll(".langbtn").forEach(btn => btn.addEventListener("click", () => setLang(btn.dataset.lang)));
+const view = new URLSearchParams(window.location.search).get("view");
+if(view === "zh" || view === "en") setLang(view);
+else setLang("bilingual");
+
+const navLinks = [...document.querySelectorAll(".quicknav a")];
+const sections = navLinks.map(a => document.querySelector(a.getAttribute("href"))).filter(Boolean);
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if(entry.isIntersecting){
+      navLinks.forEach(a => a.classList.remove("on"));
+      const active = document.querySelector(`.quicknav a[href="#${entry.target.id}"]`);
+      if(active) active.classList.add("on");
+    }
+  });
+},{threshold:.18,rootMargin:"-80px 0px -55% 0px"});
+sections.forEach(section => observer.observe(section));
 </script>
 </body>
 </html>
